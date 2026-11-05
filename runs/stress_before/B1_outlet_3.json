@@ -1,0 +1,22 @@
+{
+ "case": "B1",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:08+00:00",
+ "seconds": 31.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a male after-school worker at Everett Middle School was arrested by San Francisco police over allegedly inappropriate contact with a student. The school district said it received a report and contacted police; the incident was under investigation by police and SFUSD.\n\nStory: “Everett after-school worker arrested over alleged improper contact with student,” published March 7, 2024.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\",\n \"published\": \"2024-03-07\",\n \"quotes\": [{\"text\": \"A male after-school worker at Everett Middle School was arrested yesterday by San Francisco police for an allegedly inappropriate contact with a student, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"The administration at Everett Middle School received a report of inappropriate contact between an adult affiliated with the school community and a student yesterday, and immediately contacted the police department, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"The incident is currently under investigation by both police and SFUSD.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story cited parents saying that they had not received any communication immediately following the incident. The story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.\"}\n```\n",
+ "usage": {
+  "input_tokens": 22808,
+  "output_tokens": 565,
+  "cache_read_tokens": 19584,
+  "reasoning_tokens": 0,
+  "total_tokens": 23373,
+  "api_calls": 6,
+  "session_id": "local-1c805c76575f70d5089ae47305f8f2b79f361490755c909131dd6c49620c3c70"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "T2",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:53+00:00",
+ "seconds": 26.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a 16-year-old spent almost three weeks in San Francisco County Jail after allegedly giving law enforcement a false name and birthday. The city took 20 days to verify he was a minor, despite being alerted to the possibility soon after his arrest. During that time, he was kept apart from other inmates in a jail section for people with special needs. A judge later ordered his transfer to juvenile hall on $10,000 bail.\n\n{\n  \"found\": true,\n  \"story_url\": \"https://missionlocal.org/2025/09/16-year-old-boy-held-s-f-adult-jail-almost-3-weeks/\",\n  \"published\": \"2025-09-04\",\n  \"quotes\": [\n    {\n      \"text\": \"A 16-year-old was incarcerated in San Francisco County Jail for almost three weeks after he allegedly gave a false name and birthday to law enforcement.\",\n      \"source_url\": null\n    },\n    {\n      \"text\": \"The city took 20 days to verify that the defendant is a minor, despite being alerted to the possibility almost immediately after the boy’s arrest.\",\n      \"source_url\": null\n    },\n    {\n      \"text\": \"During the 20 days between his arrest and the judge’s decision, the defendant was kept separated from other inmates in a section of the jail at 425 Seventh St. for people with special needs, according to his father and emails reviewed by Mission Local.\",\n      \"source_url\": \"https://media.api.sf.gov/documents/4._CCG_Briefing_2024_Revised_Power_Point_COD.pdf\"\n    }\n  ],\n  \"correction\": \"Correction: An earlier version of this story misstated the age of the defendant as 17. He is 16.\"\n}\n",
+ "usage": {
+  "input_tokens": 18684,
+  "output_tokens": 588,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19272,
+  "api_calls": 5,
+  "session_id": "local-d5483632acdb738edfd91ade8ee48885847d63fa843f8e40ad360ff1a7911ff1"
+ }
+}

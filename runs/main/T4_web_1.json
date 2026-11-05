@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:18+00:00",
+ "seconds": 11.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s story is about Tesla making cars at the former NUMMI plant in Fremont—not opening a factory in San Francisco’s Mission District. It reported that production was expected to begin the following March.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2011/07/tesla-motors-will-begin-making-cars-in-old-nummi-plant-in-march\",\n \"published\": \"2011-07-04\",\n \"quotes\": [{\"text\": \"Tesla Motors Will Begin Making Cars in Old Nummi Plant in March\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 12013,
+  "output_tokens": 215,
+  "cache_read_tokens": 2048,
+  "reasoning_tokens": 0,
+  "total_tokens": 12228,
+  "api_calls": 3,
+  "session_id": "local-70bcd68892e34bc091e33516537b4a5f5689318bb6fea853be1eea067930c2f0"
+ }
+}

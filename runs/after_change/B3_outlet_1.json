@@ -1,0 +1,22 @@
+{
+ "case": "B3",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:26+00:00",
+ "seconds": 17.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "I couldn’t find a Mission Local story reporting what the candidates said about sidewalk sellers at a June 2024 debate for the Mission’s supervisor seat.\n\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 17659,
+  "output_tokens": 284,
+  "cache_read_tokens": 15616,
+  "reasoning_tokens": 0,
+  "total_tokens": 17943,
+  "api_calls": 5,
+  "session_id": "local-45597266d7319e4d25c8fc5e6b0e67ea6efaf403ca8854c3da76ef07e27b400b"
+ }
+}

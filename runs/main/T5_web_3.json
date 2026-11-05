@@ -1,0 +1,22 @@
+{
+ "case": "T5",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:45+00:00",
+ "seconds": 13.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s reporting does not show Mayor Daniel Lurie saying, “we will close every homeless shelter in the city by June.” The stories I found describe some shelter closures and a changing shelter-bed strategy, but not that quotation.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 20388,
+  "output_tokens": 310,
+  "cache_read_tokens": 14208,
+  "reasoning_tokens": 0,
+  "total_tokens": 20698,
+  "api_calls": 4,
+  "session_id": "local-f5cf3d5e18b609310f1a1ea439ad25754c08994e09dabea2224132ca1ee9c26e"
+ }
+}

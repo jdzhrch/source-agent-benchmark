@@ -1,0 +1,22 @@
+{
+ "case": "T5",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:58:05+00:00",
+ "seconds": 18.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s verified archive search found no published story containing that quotation.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17485,
+  "output_tokens": 274,
+  "cache_read_tokens": 16000,
+  "reasoning_tokens": 0,
+  "total_tokens": 17759,
+  "api_calls": 5,
+  "session_id": "local-da0b297dc7e6c07c49c4a4216f1e3ac8c5aef091b185a3a05b056ffeacbfe4f7"
+ }
+}

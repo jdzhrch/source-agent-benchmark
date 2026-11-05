@@ -1,0 +1,22 @@
+{
+ "case": "B4",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:40+00:00",
+ "seconds": 24.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The candidates’ comments were about the Granada Hotel. They said:\n\n- “One neighborhood and its residents cannot continue to bear the responsibility of these facilities, especially without proper planning and oversight by city departments.”\n- “The state’s time-bound Homekey funding allowed for the acquisition and conversion of the Granada, but it was rushed and didn’t adequately consider the risks of integrating formerly homeless populations with legacy tenants.”\n- “SROs are not hospitals or treatment centers and must not be treated as warehouses for people in need.”\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\",\n \"published\": \"2024-06-06\",\n \"quotes\": [{\"text\": \"One neighborhood and its residents cannot continue to bear the responsibility of these facilities, especially without proper planning and oversight by city departments.\", \"source_url\": null}, {\"text\": \"The state’s time-bound Homekey funding allowed for the acquisition and conversion of the Granada, but it was rushed and didn’t adequately consider the risks of integrating formerly homeless populations with legacy tenants.\", \"source_url\": null}, {\"text\": \"SROs are not hospitals or treatment centers and must not be treated as warehouses for people in need.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 18128,
+  "output_tokens": 493,
+  "cache_read_tokens": 15104,
+  "reasoning_tokens": 0,
+  "total_tokens": 18621,
+  "api_calls": 5,
+  "session_id": "local-43b45a256f1734782b13f1b33b44e3c51ab93d65589257b8a7e8e64411fb4bbe"
+ }
+}

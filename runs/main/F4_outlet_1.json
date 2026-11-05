@@ -1,0 +1,22 @@
+{
+ "case": "F4",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:20+00:00",
+ "seconds": 31.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA bought a 16-unit building at 17th and Mission streets for $7.75 million. Most of its 11 residential and five commercial spaces were occupied by longtime, low-income tenants. The purchase was made through the city’s Small Sites Program, with a bridge loan from the San Francisco Housing Accelerator program while MEDA awaited public funds. The story described the program as aiming to protect longtime residents and neighborhood-serving areas.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2018/01/sf-mission-nonprofit-nabs-corner-building-for-7-75-million/\",\n \"published\": \"2018-01-09\",\n \"quotes\": [\n   {\"text\": \"The Mission Economic Development Agency — or MEDA, as most know it — has purchased a 16-unit building on the corner of 17th and Mission streets for $7.75 million.\", \"source_url\": null},\n   {\"text\": \"A majority of the 11 residential and five commercial spaces are currently occupied by longtime, low-income tenants.\", \"source_url\": null},\n   {\"text\": \"The San Francisco Housing Accelerator program provided the multimillion-dollar bridge loan to MEDA as the nonprofit waits for public funds from the city’s small-sites fund to become available.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18297,
+  "output_tokens": 510,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 18807,
+  "api_calls": 5,
+  "session_id": "local-41e48259c7a9a1fb741ef6e30081eb14da3bf334d2adf0d57f24334fa8abd858"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:07+00:00",
+ "seconds": 14.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that San Francisco State’s enrollment decline and budget shortfall were prompting major cuts, with lecturers bearing the brunt. The story said the cuts could amount to 125 full-time positions, while many part-time lecturers could lose classes or their entire workloads; some colleges faced cuts of about 30 percent. It also described lecturers’ uncertainty and the potential effects on course offerings.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"The union said the cuts would affect several times more lecturers, since most are part-time.\", \"source_url\": null}, {\"text\": \"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\", \"source_url\": \"https://adminfin.sfsu.edu/sites/default/files/documents/UBC%20Presentation%20August%202023%20complete%20slideshow%20v2.1.pdf\"}, {\"text\": \"It’s not giving these faculty the chance to plan ahead and think, ‘What am I going to do for work?’ or ‘Will I have to leave the Bay Area?’\", \"source_url\": null}],\n \"correction\": \"A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n```\n",
+ "usage": {
+  "input_tokens": 12048,
+  "output_tokens": 421,
+  "cache_read_tokens": 5376,
+  "reasoning_tokens": 0,
+  "total_tokens": 12469,
+  "api_calls": 3,
+  "session_id": "local-bb30c2e71af93bca3a8ea58ebd17def2f0861ac26328869d43fa83a1e5944b5d"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:04+00:00",
+ "seconds": 31.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar sent District Attorney Brooke Jenkins to an ethics diversion program after a two-and-a-half-year process and ethics complaints. The complaints were resolved through diversion over her accessing and emailing a confidential rap sheet for a case she was not connected to.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [\n   {\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"},\n   {\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\", \"source_url\": null},\n   {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18701,
+  "output_tokens": 593,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 19294,
+  "api_calls": 5,
+  "session_id": "local-6d7fb20b2c646649e7792c62a3657f6d9c8cc3b5e2b5eab9015f306b3542258e"
+ }
+}

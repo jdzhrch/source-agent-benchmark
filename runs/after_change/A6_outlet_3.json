@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:53+00:00",
+ "seconds": 30.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar sent District Attorney Brooke Jenkins to an ethics diversion program over complaints tied to her access and sharing of a confidential “rap sheet” for a case unrelated to her. The story said the State Bar dismissed the other ethics complaints.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [\n   {\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"},\n   {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 22954,
+  "output_tokens": 565,
+  "cache_read_tokens": 19968,
+  "reasoning_tokens": 0,
+  "total_tokens": 23519,
+  "api_calls": 6,
+  "session_id": "local-7ade95c23747313fb002f5c10e5988c7cf6765df02fa42c0f034ecf56d6604bb"
+ }
+}

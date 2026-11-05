@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:48+00:00",
+ "seconds": 15.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that S.F. State lecturers were told in September 2023 that their spring classes could be reduced or eliminated. The cuts were projected to equal 125 full-time positions; the faculty union said that, because many lecturers work part time, the impact could reach many more people. The university was facing declining enrollment and a budget deficit.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts\",\n \"published\": \"2023-09-29\",\n \"quotes\": [\n   {\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\", \"source_url\": null},\n   {\"text\": \"The cuts will affect an unknown number of the 1,084 lecturers across the university.\", \"source_url\": null},\n   {\"text\": \"The union said the cuts would affect several times more lecturers, since most are part-time.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 21180,
+  "output_tokens": 411,
+  "cache_read_tokens": 6656,
+  "reasoning_tokens": 0,
+  "total_tokens": 21591,
+  "api_calls": 4,
+  "session_id": "local-41427f51658a282c11d21c0bc2d8d114dc360d67c3b93e060dff54c1a6ae7d01"
+ }
+}

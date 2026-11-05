@@ -1,0 +1,22 @@
+{
+ "case": "B2",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:04+00:00",
+ "seconds": 11.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that SFMTA vice chair Gwyneth Borden was censured after she admitted to lobbying city staff and officials on behalf of Fiorella, which paid her $12,500 to help legalize an outdoor deck. She sent dozens of emails seeking support for the restaurant’s permit while serving as a city commissioner. In a follow-up, Mission Local reported that Borden resigned.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/04/sfmta-commissioner-gwyneth-borden-lobbying\",\n \"published\": null,\n \"quotes\": [{\"text\": \"Starting in 2019 and into 2020, while she was a member of the SFMTA Board, Borden sent 32 emails to six Planning Department staffers, sent personalized emails to all seven members of the Planning Commission, and sent another email to Supervisor Dean Preston, hoping they would support the legalization of an outdoor deck for the Sunset District Italian eatery Fiorella, according to the Ethics Commission.\", \"source_url\": null},\n {\"text\": \"She reported $12,500 paid to her by Fiorella for her efforts in a position described as a “consultant.”\", \"source_url\": null}],\n \"correction\": \"A previous version of this story stated that Fiorella had a non-compliant deck prior to 2019; the deck belonged to Park Chow, the restaurant that previously occupied the same address.\"}\n```\n",
+ "usage": {
+  "input_tokens": 14852,
+  "output_tokens": 405,
+  "cache_read_tokens": 8704,
+  "reasoning_tokens": 0,
+  "total_tokens": 15257,
+  "api_calls": 3,
+  "session_id": "local-0fdf565e532ff6a0ecf6f7c784e83503f81f9dd69182a6e32338677b8911c8d6"
+ }
+}

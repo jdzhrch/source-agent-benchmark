@@ -1,0 +1,22 @@
+{
+ "case": "F1",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:05+00:00",
+ "seconds": 21.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "I couldn’t verify the package: the required verifier returned an HTTP 404. I therefore can’t quote or summarize the story from the package.\n\n```json\n{\"found\": false, \"story_url\": null, \"published\": null, \"quotes\": [], \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 22408,
+  "output_tokens": 310,
+  "cache_read_tokens": 19200,
+  "reasoning_tokens": 0,
+  "total_tokens": 22718,
+  "api_calls": 6,
+  "session_id": "local-149714d0d297237361b8630215d7091d81627e1361c409d764269f397d145b14"
+ }
+}

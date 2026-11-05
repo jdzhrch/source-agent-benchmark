@@ -1,0 +1,22 @@
+{
+ "case": "B5",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:49+00:00",
+ "seconds": 16.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Aaron Peskin campaigned at a Noe Valley meeting where residents worried that rezoning and state housing rules could bring taller buildings. Neighborhoods United presented renderings of possible building heights; Peskin discussed zoning and housing, including building design and the history of the I-Hotel.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/09/see-how-they-run-aaron-peskin-visits-the-zoning-panic-zone\",\n \"published\": \"2024-09-12\",\n \"quotes\": [\n   {\"text\": \"The topic is zoning, and the crowd is anxious.\", \"source_url\": null},\n   {\"text\": \"Peskin is there to campaign, but in his own particular way, which is to say that there will be discussion of variable floor plate sizes and the history of the I-Hotel.\", \"source_url\": null},\n   {\"text\": \"Neighborhoods United is behind these renderings, which show San Francisco being menaced by giant gray and white rectangles — massing studies meant to show how tall buildings can get along certain streets once the rezoned streets are combined with the state density bonus.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 21525,
+  "output_tokens": 457,
+  "cache_read_tokens": 17664,
+  "reasoning_tokens": 0,
+  "total_tokens": 21982,
+  "api_calls": 5,
+  "session_id": "local-b3e31cc83b0c43b5a4ace6a6fa92e869b6aaffb72fc0839d151c188707377251"
+ }
+}

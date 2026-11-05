@@ -1,0 +1,22 @@
+{
+ "case": "A5",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:38+00:00",
+ "seconds": 20.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "I couldn’t find a Mission Local story covering that question, so I can’t say what the candidates said.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17926,
+  "output_tokens": 277,
+  "cache_read_tokens": 16000,
+  "reasoning_tokens": 0,
+  "total_tokens": 18203,
+  "api_calls": 5,
+  "session_id": "local-84dd75bf19c26dc6916936e45ecf265b2391f4f07bd86062d4ee8e6896ad060b"
+ }
+}

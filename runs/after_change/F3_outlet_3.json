@@ -1,0 +1,22 @@
+{
+ "case": "F3",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:04+00:00",
+ "seconds": 27.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s data takeaways were: turnout was about 412,000, down 38,000 from 2020 despite a similar number of registered voters; Proposition H helped shift some races to even-year elections, when turnout is higher; a citywide measure passed 55–45, a 35,600-vote difference; a heavily funded measure was rejected by 13 percent, or 48,887 votes; redistricting likely hurt Dean Preston and helped Myrna Melgar; and in new precincts, Philhour received 52 percent of first-choice votes.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\",\n \"published\": \"2024-11-29\",\n \"quotes\": [\n   {\"text\": \"About 412,000 people voted in this year’s general election, 38,000 fewer than in 2020 — even though the total number of registered voters is about the same: 522,265 in this election compared to 521,099 in 2020.\", \"source_url\": \"https://www.sfelections.org/tools/election_data/index.php\"},\n   {\"text\": \"That’s thanks to 2022’s Proposition H, which shifted the election for some races from odd years, when few vote, to even years, when turnout is high.\", \"source_url\": \"https://missionlocal.org/2024/01/mayor-london-breed-2024/\"},\n   {\"text\": \"They did: In new precincts, 52 percent of first-choice votes went to Philhour.\", \"source_url\": null}\n ],\n \"correction\": \"Correction: A previous version of this article incorrectly cited a lower number of registered voters.\"\n}```\n",
+ "usage": {
+  "input_tokens": 18455,
+  "output_tokens": 598,
+  "cache_read_tokens": 15232,
+  "reasoning_tokens": 0,
+  "total_tokens": 19053,
+  "api_calls": 5,
+  "session_id": "local-7cab6561cf3330652ebfe341b2978806b7e35e20d1faf66de3b545a097ef3dd4"
+ }
+}

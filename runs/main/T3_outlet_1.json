@@ -1,0 +1,22 @@
+{
+ "case": "T3",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:31+00:00",
+ "seconds": 38.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Alemany Farm, a 3.5-acre farm producing more than 30,000 pounds of free produce annually, was at risk of shutting down. It had paused paid apprenticeships, reduced staff hours and launched a $200,000 fundraising campaign. Organizers said the farm faced a $100,000–$150,000 budget gap after one-time city funding ended.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/05/sf-largest-urban-farm-alemany-risks-shutting-down/\",\n \"published\": \"2025-05-25\",\n \"quotes\": [{\"text\": \"Alemany Farm, nestled on 3.5 acres near the intersection of Interstate 280 and Alemany Boulevard, grows more than 30,000 pounds of free produce each year for San Francisco residents; no IDs, no payments, no questions asked.\", \"source_url\": null}, {\"text\": \"After years of relying on thin public grants and volunteer labor, the farm paused its paid apprenticeship programs at the start of May, scaled back staff hours near the same time, and launched a grassroots campaign to raise $200,000 in late April, an effort to stay afloat in a city cutting costs across public services\", \"source_url\": \"https://alemanyfarm.org/donate/\"}, {\"text\": \"The urban farm, structured as a fiscally sponsored nonprofit, is facing a $100,000 to $150,000 gap in this year’s budget after one-time city funding ran out, according to farm organizers.\", \"source_url\": null}],\n \"correction\": \"A previous version of this story attributed the farm’s projected budget gap to the San Francisco Human Services Agency. The estimate came from Alemany Farm.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18281,
+  "output_tokens": 586,
+  "cache_read_tokens": 13056,
+  "reasoning_tokens": 0,
+  "total_tokens": 18867,
+  "api_calls": 5,
+  "session_id": "local-119c4f1ca7347def40a3af0c05e58a1805a39812a08b9a126611a378c86479c5"
+ }
+}

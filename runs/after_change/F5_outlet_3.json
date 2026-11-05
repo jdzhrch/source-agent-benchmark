@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:03+00:00",
+ "seconds": 23.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published “Meet the District 5 candidates: Where does power lie in SF?” on May 28, 2024. It asked candidates to discuss the division of power in San Francisco and where power truly lies. The story included candidates’ views on reducing city commissions and increasing mayoral authority.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null},\n {\"text\": \"One of those measures would limit the number of city commissions, disband many existing commissions and/or remove their decision-making authority, and give the mayor majority appointing power for any new commissions.\", \"source_url\": null},\n {\"text\": \"We have many problems in SF — lack of mayoral power isn’t one of them.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18493,
+  "output_tokens": 456,
+  "cache_read_tokens": 15232,
+  "reasoning_tokens": 0,
+  "total_tokens": 18949,
+  "api_calls": 5,
+  "session_id": "local-50c23cca7bb9bcdc4caeafa8e6bd7f079b5a07266d66614a4c563d5f61d1e1be"
+ }
+}

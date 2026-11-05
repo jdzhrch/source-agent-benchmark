@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:55+00:00",
+ "seconds": 16.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s archive reports no published story about Tesla opening a car factory in the Mission District.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17555,
+  "output_tokens": 267,
+  "cache_read_tokens": 15104,
+  "reasoning_tokens": 0,
+  "total_tokens": 17822,
+  "api_calls": 5,
+  "session_id": "local-be65c9dd15aaec15f07a37b9e7ed1a26881c8bd9d2078ca2e848f0dca58897c6"
+ }
+}

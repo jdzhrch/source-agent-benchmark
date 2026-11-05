@@ -1,0 +1,22 @@
+{
+ "case": "A5",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:34+00:00",
+ "seconds": 14.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The question was about where power truly lies in San Francisco. Dean Preston said the mayor already has substantial power; the other candidates’ answers are in the linked story.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power\",\n \"published\": \"2024-05-22\",\n \"quotes\": [{\"text\": \"San Francisco has a strong-mayor system of government. Our mayor has more power than most, and receives the highest salary of any mayor in the country.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 22971,
+  "output_tokens": 261,
+  "cache_read_tokens": 14464,
+  "reasoning_tokens": 0,
+  "total_tokens": 23232,
+  "api_calls": 4,
+  "session_id": "local-dc440143e49605acbc69cf15d8f99c4093be78e4b716c23553760f73019700d6"
+ }
+}

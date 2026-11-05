@@ -1,0 +1,22 @@
+{
+ "case": "B1",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:01:11+00:00",
+ "seconds": 28.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a male after-school worker at Everett Middle School was arrested by San Francisco police over alleged inappropriate contact with a student. The school district said the school reported the incident to police, and both police and SFUSD were investigating. The story said it was unclear whether the man was an employee or volunteer of Mission Graduates.\n\nStory: “Everett after-school worker arrested over alleged improper contact with student,” published March 7, 2024.\n\nCorrection: A previous version said parents reported receiving no communication immediately after the incident; the story was updated to note that the principal had sent an email soon after.\n\n```json\n{\"found\":true,\"story_url\":\"https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\",\"published\":\"2024-03-07\",\"quotes\":[{\"text\":\"A male after-school worker at Everett Middle School was arrested yesterday by San Francisco police for an allegedly inappropriate contact with a student, according to the San Francisco Unified School District.\",\"source_url\":null},{\"text\":\"The administration at Everett Middle School received a report of inappropriate contact between an adult affiliated with the school community and a student yesterday, and immediately contacted the police department, according to the San Francisco Unified School District.\",\"source_url\":null},{\"text\":\"The incident is currently under investigation by both police and SFUSD.\",\"source_url\":null}],\"correction\":\"A previous version of this story cited parents saying that they had not received any communication immediately following the incident. The story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18799,
+  "output_tokens": 575,
+  "cache_read_tokens": 12928,
+  "reasoning_tokens": 0,
+  "total_tokens": 19374,
+  "api_calls": 5,
+  "session_id": "local-f646521fa458fac96abc9781c64b2c64bbc6ae332b363916cce0150daeaf4b52"
+ }
+}

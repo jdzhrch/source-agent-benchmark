@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:52+00:00",
+ "seconds": 28.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s verified result says it found no published story in its archive about older apartments with tenant protections being left out of the Westside upzoning plan.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 25911,
+  "output_tokens": 406,
+  "cache_read_tokens": 22912,
+  "reasoning_tokens": 0,
+  "total_tokens": 26317,
+  "api_calls": 7,
+  "session_id": "local-27eeed45dde1af31229d86704d9f73495a59318dc2f03082d726122ce3f7485c"
+ }
+}

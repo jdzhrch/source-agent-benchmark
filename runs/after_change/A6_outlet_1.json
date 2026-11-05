@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:24+00:00",
+ "seconds": 30.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that DA Brooke Jenkins was placed in a State Bar diversionary program after ethics complaints, with the records incident at its center: she accessed a confidential rap sheet for a case she had no connection to and emailed it to a colleague who also had no connection to the case.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [\n   {\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"},\n   {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"},\n   {\"text\": \"In November 2022, Mission Local revealed that, in her final week on the job as an assistant district attorney, Brooke Jenkins accessed the confidential “rap sheet” for a case to which she had no connection, and emailed it to a colleague who also had no connection to the case.\", \"source_url\": \"https://missionlocal.org/2022/11/brooke-jenkins-don-dubain-troy-mcallister-police-report-rap-sheet-recall-chesa-boudin/\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18743,
+  "output_tokens": 651,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19394,
+  "api_calls": 5,
+  "session_id": "local-6f64c23a8594c738fb84bddde7577ab5c95d0009c486d0465985590aae531e84"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:24+00:00",
+ "seconds": 28.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published a May 28, 2024, installment of its “Meet the Candidates” series, asking District 5 candidates to discuss San Francisco’s division of power and where power truly lies.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [\n   {\"text\": \"Here's the latest in our \\\"Meet the Candidates\\\" series for District 5, in which we ask each candidate to answer one question per week leading up to the election.\", \"source_url\": null},\n   {\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null}\n ],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 18590,
+  "output_tokens": 401,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 18991,
+  "api_calls": 5,
+  "session_id": "local-3e53fdff179361a95097cf41bddffc2386be26e43d5f23370bc93f0593c473ec"
+ }
+}

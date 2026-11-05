@@ -1,0 +1,22 @@
+{
+ "case": "F7",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:38+00:00",
+ "seconds": 17.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s archive agent found no published story reporting that the city turned Dolores Park into a paid parking lot.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17502,
+  "output_tokens": 269,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 17771,
+  "api_calls": 5,
+  "session_id": "local-0a3d93771703ade45af79442703e360dc9a423ba9241e8e21c3123c7d01c35ef"
+ }
+}

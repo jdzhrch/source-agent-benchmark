@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:22+00:00",
+ "seconds": 17.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s verified archive search found no published story reporting that Tesla is opening a car factory in the Mission District. It mentioned a different story, “Tesla crashes into Mission District plant store,” published January 20, 2025, but said that story is not about a factory.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17571,
+  "output_tokens": 308,
+  "cache_read_tokens": 13056,
+  "reasoning_tokens": 0,
+  "total_tokens": 17879,
+  "api_calls": 5,
+  "session_id": "local-5a8396e98fc738a77b01f85cab0ce2059c6e346c7cf17d0987b65456a7e94041"
+ }
+}

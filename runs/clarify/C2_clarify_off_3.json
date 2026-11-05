@@ -1,0 +1,22 @@
+{
+ "case": "C2",
+ "set": "clarify",
+ "arm": "clarify_off",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:07:21+00:00",
+ "seconds": 29.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA bought a 16-unit building at 17th and Mission streets for $7.75 million. Most of its 11 residential and five commercial spaces were occupied by longtime, low-income tenants. The story said MEDA expected to rent units to low-income tenants at affordable rents as existing tenants moved out of their own volition; it did not report that tenants would be required to leave. It also noted MEDA had bought a building at 18th and Mission the previous December.\n\nThe story is about 17th and Mission, not the building at 16th Street and South Van Ness Avenue, so it doesn’t establish what will happen at your building.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2018/01/sf-mission-nonprofit-nabs-corner-building-for-7-75-million/\",\n \"published\": \"2018-01-09\",\n \"quotes\": [{\"text\": \"The Mission Economic Development Agency — or MEDA, as most know it — has purchased a 16-unit building on the corner of 17th and Mission streets for $7.75 million.\", \"source_url\": null}, {\"text\": \"A majority of the 11 residential and five commercial spaces are currently occupied by longtime, low-income tenants.\", \"source_url\": null}, {\"text\": \"“We purchase these buildings with the expectation that as these tenants move out – of their own volition – we can rent to low-income tenants at affordable rents.”\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 19069,
+  "output_tokens": 567,
+  "cache_read_tokens": 13952,
+  "reasoning_tokens": 0,
+  "total_tokens": 19636,
+  "api_calls": 5,
+  "session_id": "local-a95124f792308fa699ef2e46456751da57bb78a50ee0e7c69e235b5842930100"
+ }
+}

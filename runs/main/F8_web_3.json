@@ -1,0 +1,22 @@
+{
+ "case": "F8",
+ "set": "main",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:48+00:00",
+ "seconds": 15.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local published the sentence in “MEDA to buy building near 16th St. BART for 100-percent affordable housing,” published May 30, 2024. Note that the story says “$83,900,” not “$93,900.”\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing\",\n \"published\": \"2024-05-30\",\n \"quotes\": [{\"text\": \"This translates into an annual income of $83,900 for one person, or $107,900 for a family of three.\", \"source_url\": \"https://www.sf.gov/sites/default/files/2024-04/2024%20AMI-IncomeLimits-HMFA.pdf\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 24568,
+  "output_tokens": 339,
+  "cache_read_tokens": 15616,
+  "reasoning_tokens": 0,
+  "total_tokens": 24907,
+  "api_calls": 5,
+  "session_id": "local-4d6c9b5fe8b420f8b8a46918322e4e00275d42c384a99ccdc08115d7311d4210"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "C4",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:04+00:00",
+ "seconds": 44.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that paid lawn reservations at Dolores Park were discontinued in 2016. The story says the city changed its reservation policy to limit reservations to picnic tables; it also notes that permit fees help offset cleanup costs. It doesn’t establish the current rules for every kind of large picnic, so check with Rec & Park before making plans.\n\nThe story does not include a correction.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/rec-park-to-disband-paid-lawn-reservation-system/\",\n \"published\": \"2016-05-24\",\n \"quotes\": [{\"text\": \"“To address this concern, I worked with Rec & Park to change its reservation policy by limiting reservations to picnic tables.”\", \"source_url\": \"https://medium.com/@Scott_Wiener/supervisor-wieners-statement-on-dolores-park-picnic-reservations-98a35ed3b2e8#.so3stpsn0\"}, {\"text\": \"Both Kahn and Wiener emphasized that a reservation system has existed for a long time in the parks, that permit fees help offset the cost of cleaning up trash ($750,000 in Dolores Park alone last year), and that even lawn reservations already exist in many other city parks.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 23022,
+  "output_tokens": 619,
+  "cache_read_tokens": 13440,
+  "reasoning_tokens": 0,
+  "total_tokens": 23641,
+  "api_calls": 6,
+  "session_id": "local-c2f27590f37b6211649fef37cf5552e80ff0815bd35eef8f78a625ba32d6d904"
+ }
+}

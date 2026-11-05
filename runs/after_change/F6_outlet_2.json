@@ -1,0 +1,22 @@
+{
+ "case": "F6",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:11+00:00",
+ "seconds": 12.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "I couldn’t retrieve the story: the Mission Local agent call returned HTTP 404, so I have no package to verify. I can’t confirm what Mission Local reported.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17524,
+  "output_tokens": 226,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 17750,
+  "api_calls": 5,
+  "session_id": "local-0045e343e3ecd3e61928c37595f33868c0784f21915690ab941076aa209da647"
+ }
+}

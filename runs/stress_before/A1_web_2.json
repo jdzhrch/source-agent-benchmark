@@ -1,0 +1,22 @@
+{
+ "case": "A1",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:08+00:00",
+ "seconds": 18.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s short “People We Meet” piece followed three friends who arrived at the GameStop on Mission Street at 6 a.m. to get “The Legend of Zelda: Tears of the Kingdom.” They brought folding chairs and worked remotely while they waited for the store to open. The three got the first spots in line for collector’s editions.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop/\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"“Thirty years from now, we’ll still remember, ‘Oh, we did a line together at 6 a.m. for this game.’”\", \"source_url\": null}],\n \"correction\": \"An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"}\n```\n",
+ "usage": {
+  "input_tokens": 23780,
+  "output_tokens": 389,
+  "cache_read_tokens": 17664,
+  "reasoning_tokens": 0,
+  "total_tokens": 24169,
+  "api_calls": 4,
+  "session_id": "local-8760931742b11ac100747fd233daabd5caaf74a31ed1e5d13addc0b97743b552"
+ }
+}

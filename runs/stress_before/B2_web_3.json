@@ -1,0 +1,22 @@
+{
+ "case": "B2",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:16+00:00",
+ "seconds": 16.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that SFMTA board vice chair Gwyneth Borden was censured by the Ethics Commission for lobbying city staff and officials on behalf of Fiorella, which paid her $12,500 as a “consultant.” She sent dozens of emails seeking approval to legalize the restaurant’s outdoor deck. The commission considered raising her proposed $9,000 fine to the maximum $37,500. A follow-up reported that Borden resigned.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/04/sfmta-commissioner-gwyneth-borden-lobbying\",\n \"published\": \"2023-04-18\",\n \"quotes\": [{\"text\": \"A proposed stipulation lays out the case that she spent six months illegally lobbying city staff, planning commissioners, and a city supervisor on behalf of a restaurant that paid her $12,500.\", \"source_url\": \"https://sfethics.org/wp-content/uploads/2023/04/Agenda-Item-10-Gwyneth-Borden-Stipulation.pdf\"}, {\"text\": \"Starting in 2019 and into 2020, while she was a member of the SFMTA Board, Borden sent 32 emails to six Planning Department staffers, sent personalized emails to all seven members of the Planning Commission, and sent another email to Supervisor Dean Preston, hoping they would support the legalization of an outdoor deck for the Sunset District Italian eatery Fiorella, according to the Ethics Commission.\", \"source_url\": null}, {\"text\": \"The proposed stipulation, which is not final and will be revisited by the Ethics Commission as soon as next month, would fine her $9,000 — $3,500 less than she made on this transaction.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 13274,
+  "output_tokens": 500,
+  "cache_read_tokens": 8576,
+  "reasoning_tokens": 0,
+  "total_tokens": 13774,
+  "api_calls": 3,
+  "session_id": "local-82757620918dcde78ceed552e336c06f5e9cd42f403f29556605d0039e1f93e7"
+ }
+}

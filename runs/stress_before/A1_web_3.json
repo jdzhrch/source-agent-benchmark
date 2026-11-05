@@ -1,0 +1,22 @@
+{
+ "case": "A1",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:54+00:00",
+ "seconds": 11.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s short “People We Meet” piece was about three friends who arrived at the GameStop on Mission Street at 6 a.m. to wait for the physical release of “The Legend of Zelda: Tears of the Kingdom.” They brought folding chairs and snacks, and worked remotely while they waited for the shop to open.\n\nJSON:\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of “Legend of Zelda: Tears of the Kingdom.”\", \"source_url\": null},\n {\"text\": \"“Thirty years from now, we’ll still remember, ‘Oh, we did a line together at 6 a.m. for this game.’”\", \"source_url\": null},\n {\"text\": \"But now, standing and waiting outside a shop to grab another physical game, Sanchez lamented that doing so was “a dying tradition.”\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 10186,
+  "output_tokens": 324,
+  "cache_read_tokens": 7552,
+  "reasoning_tokens": 0,
+  "total_tokens": 10510,
+  "api_calls": 3,
+  "session_id": "local-5394f12606e92eb62fb610353e1690e5b0450b445a7f24024520619760cd9e25"
+ }
+}

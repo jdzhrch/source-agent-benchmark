@@ -1,0 +1,123 @@
+{
+ "seed": 20261104,
+ "rule_1_pool": 20,
+ "rule_2_pool": 82,
+ "rule_2_pages": [
+  14,
+  21,
+  24,
+  32
+ ],
+ "corrections": [
+  {
+   "post_id": 548989,
+   "url": "https://missionlocal.org/2023/05/zelda-gamestop/",
+   "published": "2023-05-13",
+   "title": "People We Meet: In line for Zelda at GameStop",
+   "correction": "Correction: An earlier version of the article stated this GameStop is the last in San Francisco.\nThat was an error.\nThere is one more GameStop in Stonestown Galleria.",
+   "document_sentences": 0,
+   "words": 565
+  },
+  {
+   "post_id": 792434,
+   "url": "https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/",
+   "published": "2025-10-16",
+   "title": "Most rent-controlled buildings to be exempted from S.F. upzoning plan",
+   "correction": "Correction: A previous version of this article stated the number of remaining two unit rent-controlled units subject to height increases was 16.\nIt is 32.",
+   "document_sentences": 1,
+   "words": 1029
+  },
+  {
+   "post_id": 667814,
+   "url": "https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/",
+   "published": "2024-11-29",
+   "title": "Four data takeaways from San Francisco&#8217;s November election",
+   "correction": "Correction: A previous version of this article incorrectly cited a lower number of registered voters.",
+   "document_sentences": 0,
+   "words": 1917
+  },
+  {
+   "post_id": 592355,
+   "url": "https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/",
+   "published": "2024-03-06",
+   "title": "Everett after-school worker arrested over alleged improper contact with student",
+   "correction": "Correction: A previous version of this story cited parents saying that they had not received any communication immediately following the incident.\nThe story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.",
+   "document_sentences": 0,
+   "words": 518
+  },
+  {
+   "post_id": 543470,
+   "url": "https://missionlocal.org/2023/04/sfmta-commissioner-gwyneth-borden-lobbying/",
+   "published": "2023-04-18",
+   "title": "SFMTA commissioner admits she illegally lobbied city staff",
+   "correction": "Correction: A previous version of this story stated that Fiorella had a non-compliant deck prior to 2019; the deck belonged to Park Chow, the restaurant that previously occupied the same address.",
+   "document_sentences": 2,
+   "words": 1061
+  },
+  {
+   "post_id": 634044,
+   "url": "https://missionlocal.org/2024/06/district-9-contenders-talk-mission-street-vending-in-forum/",
+   "published": "2024-06-05",
+   "title": "District 9 contenders tackle Mission street vending in forum",
+   "correction": "Correction: An earlier version of this piece stated that none of the candidates mentioned the absence of Trevor Chandler from the debate.\nJackie Fielder did mention his absence without referring to him by name.\nMore Election 2024 Coverage\nS.F. ethics probe flags lapses in Mark Farrell’s 2024 mayor campaign\nPro-car Great Highway group faces ethics fine for skirting S.F.",
+   "document_sentences": 0,
+   "words": 1144
+  }
+ ],
+ "documents": [
+  {
+   "post_id": 633283,
+   "url": "https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing/",
+   "published": "2024-05-30",
+   "title": "MEDA to buy building near 16th St. BART for 100-percent affordable housing",
+   "correction": null,
+   "document_sentences": 2,
+   "words": 613
+  },
+  {
+   "post_id": 632956,
+   "url": "https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/",
+   "published": "2024-05-28",
+   "title": "Meet the District 5 candidates: Where does power lie in SF?",
+   "correction": null,
+   "document_sentences": 2,
+   "words": 795
+  },
+  {
+   "post_id": 632074,
+   "url": "https://missionlocal.org/2024/05/conozca-a-los-candidatos-del-distrito-9-apoya-los-centros-de-tratamiento-bajo-demanda-en-el-distrito/",
+   "published": "2024-05-24",
+   "title": "Conozca a los candidatos del Distrito 9: ¿Apoya los centros de tratamiento bajo demanda en el distrito?",
+   "correction": null,
+   "document_sentences": 2,
+   "words": 1744
+  },
+  {
+   "post_id": 749642,
+   "url": "https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/",
+   "published": "2025-04-09",
+   "title": "DA Brooke Jenkins, in the ultimate irony, is placed in diversionary program",
+   "correction": null,
+   "document_sentences": 4,
+   "words": 1441
+  },
+  {
+   "post_id": 634099,
+   "url": "https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/",
+   "published": "2024-06-05",
+   "title": "Meet the District 3 candidates: What do you think about the Granada Hotel?",
+   "correction": null,
+   "document_sentences": 3,
+   "words": 1188
+  },
+  {
+   "post_id": 653192,
+   "url": "https://missionlocal.org/2024/09/see-how-they-run-aaron-peskin-visits-the-zoning-panic-zone/",
+   "published": "2024-09-12",
+   "title": "See how they run: Aaron Peskin visits the zoning panic zone",
+   "correction": null,
+   "document_sentences": 3,
+   "words": 2459
+  }
+ ]
+}

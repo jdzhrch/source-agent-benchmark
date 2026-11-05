@@ -1,0 +1,22 @@
+{
+ "case": "F2",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:02+00:00",
+ "seconds": 23.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the mayor’s upzoning plan would no longer apply to buildings with three or more rent-controlled apartments. The amendment was expected to exempt at least 84,000 rental units in 11,700 buildings, along with any ground-floor retail beneath them. Two-unit buildings were not covered and remained in the plan.\n\nThe story also said the change responded to tenant concerns that upzoning could encourage demolition of older, rent-controlled housing. It reported that protecting those units should not affect the plan’s broader goal of creating capacity for 36,000 additional homes to meet the state mandate.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\",\n \"published\": \"2025-10-16\",\n \"quotes\": [{\"text\": \"The mayor’s plan to upzone swaths of San Francisco will no longer apply to buildings with three or more rent-controlled apartments.\", \"source_url\": null}, {\"text\": \"The amendment exempts at least 84,000 rental units in 11,700 buildings from the upzoning plan, and any ground-floor retail that might be under them, according to analysis by Mission Local.\", \"source_url\": null}, {\"text\": \"Two-unit buildings are not covered by the amendment, and there are some 20,700 of them still included in the upzoning plan.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this article stated the number of remaining two unit rent-controlled units subject to height increases was 16. It is 32.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18786,
+  "output_tokens": 550,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19336,
+  "api_calls": 5,
+  "session_id": "local-faef76e444abaacde8b63f8f785005186f0d290d5251fe1262e29b9966b94766"
+ }
+}

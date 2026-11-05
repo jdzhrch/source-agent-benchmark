@@ -1,0 +1,22 @@
+{
+ "case": "F4",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:03+00:00",
+ "seconds": 25.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA was purchasing a four-story building at 2901 16th St., two blocks east of the 16th Street BART station, to rehabilitate into 62 units of permanent affordable housing. Tenants could stay or move out during the work. The purchase depended on city approval of a loan, which would come through the Small Sites Program.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing/\",\n \"published\": \"2024-05-30\",\n \"quotes\": [{\"text\": \"The Mission Economic Development Agency, a nonprofit housing developer, is in the process of purchasing a four-story building at 2901 16th St. at the corner of South Van Ness Avenue to convert it into 62 units of permanent affordable housing.\", \"source_url\": null},\n {\"text\": \"Two blocks east of the 16th St. BART station, the 1914 brick building will go through rehabilitation by MEDA, and its tenants will have the option to remain in their units or move out during that period.\", \"source_url\": null},\n {\"text\": \"The loan to purchase the building will come from the Small Sites Program, which helps local nonprofits like MEDA buy properties and lease units to existing low-income tenants and others combating displacement.\", \"source_url\": \"https://www.sf.gov/information/about-small-sites-program\"}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 22202,
+  "output_tokens": 565,
+  "cache_read_tokens": 18560,
+  "reasoning_tokens": 0,
+  "total_tokens": 22767,
+  "api_calls": 6,
+  "session_id": "local-80853db7ee12963518b1ea042318b1d0e3e9830fa1a36bc602ddaeaf12eca915"
+ }
+}

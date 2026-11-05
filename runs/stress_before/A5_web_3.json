@@ -1,0 +1,22 @@
+{
+ "case": "A5",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:54:45+00:00",
+ "seconds": 18.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Dean Preston said San Francisco already gives the mayor substantial power: the mayor appoints commissions, hires and fires department directors, and has unilateral control over the city budget. He argued that commissioners should be more independent and less beholden to the mayor.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"San Francisco has a strong-mayor system of government.\", \"source_url\": null}, {\"text\": \"Our mayor has more power than most, and receives the highest salary of any mayor in the country.\", \"source_url\": null}, {\"text\": \"We need to make commissioners more independent and less beholden to the mayor.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 40731,
+  "output_tokens": 386,
+  "cache_read_tokens": 25472,
+  "reasoning_tokens": 0,
+  "total_tokens": 41117,
+  "api_calls": 6,
+  "session_id": "local-8763377f14f30ede9a3f3444446cc8962cf30df025c9b1cb8195ceebef5555a6"
+ }
+}

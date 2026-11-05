@@ -1,0 +1,22 @@
+{
+ "case": "T2",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:01:40+00:00",
+ "seconds": 28.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a 16-year-old boy spent almost three weeks in San Francisco County Jail after allegedly giving law enforcement a false name and birthday. The city took 20 days to verify he was a minor, and he was kept apart from other inmates while awaiting a judge’s decision. The story said he was later ordered transferred to juvenile hall on $10,000 bail.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/09/16-year-old-boy-held-s-f-adult-jail-almost-3-weeks/\",\n \"published\": \"2025-09-04\",\n \"quotes\": [{\"text\": \"A 16-year-old was incarcerated in San Francisco County Jail for almost three weeks after he allegedly gave a false name and birthday to law enforcement.\", \"source_url\": null}, {\"text\": \"The city took 20 days to verify that the defendant is a minor, despite being alerted to the possibility almost immediately after the boy’s arrest.\", \"source_url\": null}, {\"text\": \"Almost three weeks after the defendant’s arrest, Eskin ordered that he be transferred to juvenile hall and held on $10,000 bail.\", \"source_url\": null}],\n \"correction\": \"Correction: An earlier version of this story misstated the age of the defendant as 17. He is 16.\"}\n",
+ "usage": {
+  "input_tokens": 18613,
+  "output_tokens": 504,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 19117,
+  "api_calls": 5,
+  "session_id": "local-34eee42084cf27369e782d09418d4b522efdd8484cda4a171321a2bae9773a81"
+ }
+}

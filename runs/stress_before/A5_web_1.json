@@ -1,0 +1,22 @@
+{
+ "case": "A5",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:37+00:00",
+ "seconds": 12.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The candidates disagreed. Allen Jones supported empowering future mayors with fewer boards and commissions; Bilal Mahmood argued that reducing redundant commissions could make government more accountable and efficient. Autumn Looijen did not submit a response. Dean Preston said the mayor already has substantial power and that commissioners should be more independent and less beholden to the mayor.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"San Francisco has a strong-mayor system of government.\", \"source_url\": null}, {\"text\": \"Our mayor has more power than most, and receives the highest salary of any mayor in the country.\", \"source_url\": null}, {\"text\": \"We need to make commissioners more independent and less beholden to the mayor.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 14334,
+  "output_tokens": 280,
+  "cache_read_tokens": 6784,
+  "reasoning_tokens": 0,
+  "total_tokens": 14614,
+  "api_calls": 3,
+  "session_id": "local-c5a6d6651f303e23ca62f47bb65b35df40e67251d6d81af1a045099b2a36d716"
+ }
+}

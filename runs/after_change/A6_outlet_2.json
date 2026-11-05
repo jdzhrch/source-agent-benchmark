@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:58+00:00",
+ "seconds": 27.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that District Attorney Brooke Jenkins was placed in a State Bar diversionary program over ethics complaints after she accessed a confidential rap sheet for an unrelated case and emailed it to a colleague who also had no connection to the case. The story said the State Bar dismissed the other complaints and acted on the records incident.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [{\"text\": \"In November 2022, Mission Local revealed that, in her final week on the job as an assistant district attorney, Brooke Jenkins accessed the confidential “rap sheet” for a case to which she had no connection, and emailed it to a colleague who also had no connection to the case.\",\"source_url\":\"https://missionlocal.org/2022/11/brooke-jenkins-don-dubain-troy-mcallister-police-report-rap-sheet-recall-chesa-boudin/\"},{\"text\":\"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\",\"source_url\":\"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18815,
+  "output_tokens": 562,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19377,
+  "api_calls": 5,
+  "session_id": "local-fa9e51e94d38238c7b5ecf6e6a64b67debe49bd6d02464b29ba3fa828841ca19"
+ }
+}

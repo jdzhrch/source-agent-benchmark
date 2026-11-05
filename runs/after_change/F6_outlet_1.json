@@ -1,0 +1,22 @@
+{
+ "case": "F6",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:58:50+00:00",
+ "seconds": 31.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported on April 9, 2025, that the State Bar had sent sitting District Attorney Brooke Jenkins to a diversionary program after ethics complaints. The story said the complaints were “best resolved” by requiring her participation, and that the matter centered on her accessing and emailing a confidential rap sheet.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [\n   {\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"},\n   {\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\", \"source_url\": null},\n   {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 19113,
+  "output_tokens": 595,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 19708,
+  "api_calls": 5,
+  "session_id": "local-7b73e38b102651dd7ef438701e03ceed202eb557383a75b9dced6c3f0d8bb911"
+ }
+}

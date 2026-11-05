@@ -1,0 +1,22 @@
+{
+ "case": "B5",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:49+00:00",
+ "seconds": 13.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The story reports that Aaron Peskin campaigned at a Noe Valley forum where residents were anxious about zoning changes and the prospect of taller buildings. He tried to balance their concerns with support for building more housing, arguing that many approved projects weren’t being built because interest rates were high, and criticizing the state for eroding local control. The piece also describes District 8 Supervisor Rafael Mandelman challenging the forum’s alarmist framing while saying people who support more housing shouldn’t be assumed to be developer shills.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/09/see-how-they-run-aaron-peskin-visits-the-zoning-panic-zone/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"Peskin is there to campaign, but in his own particular way, which is to say that there will be discussion of variable floor plate sizes and the history of the I-Hotel.\", \"source_url\": null}, {\"text\": \"Over 70,000 units are fully approved and shovel-ready. The reason they’re not being built isn’t because of bureaucratic problems and YIMBY/NIMBY neighbor fights. It’s because interest rates are too high.\", \"source_url\": null}, {\"text\": \"I don’t think the state is doing this because they care about development. They care about getting rid of all of our local laws that protected our neighborhoods.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 13320,
+  "output_tokens": 390,
+  "cache_read_tokens": 7808,
+  "reasoning_tokens": 0,
+  "total_tokens": 13710,
+  "api_calls": 3,
+  "session_id": "local-00c1f5d0fb9c5df0477decc61cad2095b997c072e4785b00db906292f34cd6f7"
+ }
+}

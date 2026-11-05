@@ -1,0 +1,217 @@
+{
+ "note": "Written on 2026-11-04 before any benchmark run. Tuning cases are the HW6 questions the system was built against. Main and stress_b stories were drawn by sample_cases.py (seed 20261104); 632074 was skipped because it is the Spanish edition of a story, so an English question has two right answers. stress_a and stress_b questions avoid the headline's content words.",
+ "cases": [
+  {
+   "id": "T1",
+   "set": "tuning",
+   "kind": "broad topic, needs clarification",
+   "post_id": 567594,
+   "question": "What has Mission Local reported about staffing cuts at San Francisco State University?",
+   "context": "The reader cares about the September 2023 staffing cuts, focused on lecturers."
+  },
+  {
+   "id": "T2",
+   "set": "tuning",
+   "kind": "corrected figure",
+   "post_id": 784638,
+   "question": "What did Mission Local report about the teenager held in San Francisco's adult jail in 2025?"
+  },
+  {
+   "id": "T3",
+   "set": "tuning",
+   "kind": "source documents",
+   "post_id": 757408,
+   "question": "What did Mission Local report about San Francisco's largest urban farm being at risk of shutting down?"
+  },
+  {
+   "id": "T4",
+   "set": "tuning",
+   "kind": "not covered",
+   "post_id": null,
+   "question": "What has Mission Local reported about Tesla opening a car factory in the Mission District?"
+  },
+  {
+   "id": "T5",
+   "set": "tuning",
+   "kind": "fabricated quotation",
+   "post_id": null,
+   "question": "Did Mission Local quote Mayor Daniel Lurie saying \"we will close every homeless shelter in the city by June\"?"
+  },
+  {
+   "id": "F1",
+   "set": "main",
+   "kind": "correction",
+   "post_id": 548989,
+   "question": "What did Mission Local report about people lining up at the GameStop on Mission Street for the new Zelda game in 2023?"
+  },
+  {
+   "id": "F2",
+   "set": "main",
+   "kind": "correction",
+   "post_id": 792434,
+   "question": "What did Mission Local report in October 2025 about rent-controlled buildings being exempted from the mayor's upzoning plan?"
+  },
+  {
+   "id": "F3",
+   "set": "main",
+   "kind": "correction",
+   "post_id": 667814,
+   "question": "What were Mission Local's data takeaways from San Francisco's November 2024 election?"
+  },
+  {
+   "id": "F4",
+   "set": "main",
+   "kind": "source documents",
+   "post_id": 633283,
+   "question": "What did Mission Local report about MEDA buying a building near the 16th Street BART station for affordable housing?"
+  },
+  {
+   "id": "F5",
+   "set": "main",
+   "kind": "source documents, one of a series",
+   "post_id": 632956,
+   "question": "In its 2024 Meet the Candidates series, what did Mission Local publish when it asked the District 5 candidates where power lies in San Francisco?"
+  },
+  {
+   "id": "F6",
+   "set": "main",
+   "kind": "source documents",
+   "post_id": 749642,
+   "question": "What did Mission Local report in April 2025 about DA Brooke Jenkins being placed in a diversion program?"
+  },
+  {
+   "id": "F7",
+   "set": "main",
+   "kind": "not covered",
+   "post_id": null,
+   "question": "What has Mission Local reported about the city turning Dolores Park into a paid parking lot?"
+  },
+  {
+   "id": "F8",
+   "set": "main",
+   "kind": "altered quotation (real sentence, one figure changed)",
+   "post_id": null,
+   "real_post_id": 633283,
+   "altered": "This translates into an annual income of $93,900 for one person, or $107,900 for a family of three.",
+   "question": "Did Mission Local publish this sentence: \"This translates into an annual income of $93,900 for one person, or $107,900 for a family of three.\"?"
+  },
+  {
+   "id": "A1",
+   "set": "stress_a",
+   "kind": "paraphrase of F1",
+   "post_id": 548989,
+   "question": "I remember a short piece about some guys camping out at dawn outside a video game shop in the Mission to get a new release. What did Mission Local write?"
+  },
+  {
+   "id": "A2",
+   "set": "stress_a",
+   "kind": "paraphrase of F2",
+   "post_id": 792434,
+   "question": "Did Mission Local write about older apartments with tenant protections being left out of the plan to let developers build taller on the west side?"
+  },
+  {
+   "id": "A3",
+   "set": "stress_a",
+   "kind": "paraphrase of F3",
+   "post_id": 667814,
+   "question": "After the vote count finished in late 2024, Mission Local did a numbers piece on what the ballots showed. What did it find?"
+  },
+  {
+   "id": "A4",
+   "set": "stress_a",
+   "kind": "paraphrase of F4",
+   "post_id": 633283,
+   "question": "A Latino community nonprofit was buying an old brick building a couple of blocks from a Mission transit station to turn into homes for lower-income people. What did Mission Local report?"
+  },
+  {
+   "id": "A5",
+   "set": "stress_a",
+   "kind": "paraphrase of F5",
+   "post_id": 632956,
+   "question": "Mission Local asked the people running against Dean Preston a weekly question, and one week it was about who really runs the city. What did they say?"
+  },
+  {
+   "id": "A6",
+   "set": "stress_a",
+   "kind": "paraphrase of F6",
+   "post_id": 749642,
+   "question": "The city's top prosecutor was sent to an ethics program by the State Bar over a records incident. What did Mission Local report?"
+  },
+  {
+   "id": "B1",
+   "set": "stress_b",
+   "kind": "paraphrase, fresh story",
+   "post_id": 592355,
+   "question": "A man working in a middle school's after-hours program in the Mission was taken into custody over how he behaved with a kid. What did Mission Local report?"
+  },
+  {
+   "id": "B2",
+   "set": "stress_b",
+   "kind": "paraphrase, fresh story",
+   "post_id": 543470,
+   "question": "A transit board member got in trouble with the city's ethics watchdog for pushing planning staff on behalf of a restaurant client. What did Mission Local write?"
+  },
+  {
+   "id": "B3",
+   "set": "stress_b",
+   "kind": "paraphrase, fresh story",
+   "post_id": 634044,
+   "question": "At a June 2024 debate for the Mission's supervisor seat, how did the people running talk about sidewalk sellers?"
+  },
+  {
+   "id": "B4",
+   "set": "stress_b",
+   "kind": "paraphrase, fresh story",
+   "post_id": 634099,
+   "question": "Mission Local asked the people hoping to be supervisor for North Beach and Chinatown about an old residential hotel. What did they say?"
+  },
+  {
+   "id": "B5",
+   "set": "stress_b",
+   "kind": "paraphrase, fresh story",
+   "post_id": 653192,
+   "question": "Mission Local followed the board president around while he campaigned for mayor in a neighborhood worried about taller buildings. What did it report?"
+  },
+  {
+   "id": "C1",
+   "set": "clarify",
+   "kind": "several events",
+   "post_id": 567594,
+   "question": "What has Mission Local reported about job cuts at San Francisco State University?",
+   "private": "The reader teaches part-time as a lecturer at SF State and is worried that their own classes will be cut next term."
+  },
+  {
+   "id": "C2",
+   "set": "clarify",
+   "kind": "several events",
+   "post_id": 633283,
+   "question": "What has Mission Local reported about MEDA buying buildings for housing?",
+   "private": "The reader rents an apartment in the old brick building at 16th Street and South Van Ness Avenue and wants to know whether they will have to move out."
+  },
+  {
+   "id": "C3",
+   "set": "clarify",
+   "kind": "several events",
+   "post_id": 757408,
+   "question": "What has Mission Local reported about Alemany?",
+   "private": "The reader volunteers on weekends at the urban farm and heard this spring that its city money ran out."
+  },
+  {
+   "id": "C4",
+   "set": "clarify",
+   "kind": "several events",
+   "post_id": 304465,
+   "question": "What has Mission Local reported about paying to use Dolores Park?",
+   "private": "The reader is planning a big birthday picnic in the park and wonders whether they must pay to reserve a spot."
+  },
+  {
+   "id": "C5",
+   "set": "clarify",
+   "kind": "several events",
+   "post_id": 749642,
+   "question": "What has Mission Local reported about the State Bar and DA Brooke Jenkins?",
+   "private": "The reader is a law student who wants to know how the State Bar finally resolved the ethics complaints against her."
+  }
+ ],
+ "note_clarify": "Set 'clarify' added 2026-11-04 about 20:05 EST, before any of its runs: broad questions whose topic matches several events in the archive; the right story depends on private notes only the reader's assistant holds."
+}

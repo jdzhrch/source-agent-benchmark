@@ -1,0 +1,22 @@
+{
+ "case": "B4",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:40+00:00",
+ "seconds": 26.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The candidates criticized aspects of the Granada Hotel’s conversion and oversight, though they offered different responses:\n\n- One said the Homekey-funded conversion was rushed and did not adequately consider the risks to legacy tenants.\n- Another said SROs should not be treated as hospitals or treatment centers, or as “warehouses for people in need.”\n- One called for zero-tolerance policies for drug use in common areas, faster building and worker-safety projects, and addressing neighbors’ concerns.\n- Other candidates said residents should not bear the burden without proper city planning and oversight, criticized nonprofit performance, and cited allegations of elder abuse, forced evictions, and inadequate oversight.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\",\n \"published\": \"2024-06-06\",\n \"quotes\": [\n   {\"text\": \"The state’s time-bound Homekey funding allowed for the acquisition and conversion of the Granada, but it was rushed and didn’t adequately consider the risks of integrating formerly homeless populations with legacy tenants.\", \"source_url\": null},\n   {\"text\": \"SROs are not hospitals or treatment centers and must not be treated as warehouses for people in need.\", \"source_url\": null},\n   {\"text\": \"I would work with all stakeholders to ensure zero-tolerance policies for drug use in common areas, that essential building and worker safety projects are fast-tracked, and that neighbors have their concerns addressed.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18158,
+  "output_tokens": 545,
+  "cache_read_tokens": 12928,
+  "reasoning_tokens": 0,
+  "total_tokens": 18703,
+  "api_calls": 5,
+  "session_id": "local-7b4437aacfe349a7f4a28695470991776a11670047477494cb9d46720719ce51"
+ }
+}

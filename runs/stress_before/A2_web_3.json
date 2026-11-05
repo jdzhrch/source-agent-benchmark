@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:54:10+00:00",
+ "seconds": 16.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local reported that rent-controlled buildings with three or more units were exempted from the upzoning plan, but two-unit buildings remained included. The story said that about 32 percent of rent-control-eligible two-unit buildings would receive height-limit increases.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\",\n \"published\": \"2025-10-06\",\n \"quotes\": [{\"text\": \"Two-unit buildings are not covered by the amendment, and there are some 20,700 of them still included in the upzoning plan.\", \"source_url\": null}, {\"text\": \"Approximately 32 percent of rent-control-eligible two-unit buildings are receiving height-limit increases under the plan.\", \"source_url\": null}, {\"text\": \"Tenants of two-unit rent-controlled buildings already have fewer protections than tenants who live in buildings with three or more units, though, because a two-unit building can more easily be converted into condos.\", \"source_url\": null}],\n \"correction\": \"A previous version of this article stated the number of remaining two unit rent-controlled units subject to height increases was 16. It is 32.\"}\n",
+ "usage": {
+  "input_tokens": 29720,
+  "output_tokens": 477,
+  "cache_read_tokens": 20096,
+  "reasoning_tokens": 0,
+  "total_tokens": 30197,
+  "api_calls": 4,
+  "session_id": "local-5291353d4b0d97559d5fc59889104278fe3ec0b4cad128015156023f2ba10b48"
+ }
+}

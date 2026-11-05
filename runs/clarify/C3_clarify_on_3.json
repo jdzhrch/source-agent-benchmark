@@ -1,0 +1,22 @@
+{
+ "case": "C3",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:05:15+00:00",
+ "seconds": 29.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Alemany Farm’s one-time city funding ran out, leaving it with a projected $100,000–$150,000 budget gap. The farm paused paid apprenticeship programs, reduced staff hours and launched a fundraising campaign. The story also noted that the Human Services Agency approved a grant extension through June 2026.\n\nStory: https://missionlocal.org/2025/05/sf-largest-urban-farm-alemany-risks-shutting-down/\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/05/sf-largest-urban-farm-alemany-risks-shutting-down/\",\n \"published\": \"2025-05-25\",\n \"quotes\": [\n   {\"text\": \"The urban farm, structured as a fiscally sponsored nonprofit, is facing a $100,000 to $150,000 gap in this year’s budget after one-time city funding ran out, according to farm organizers.\", \"source_url\": null},\n   {\"text\": \"After years of relying on thin public grants and volunteer labor, the farm paused its paid apprenticeship programs at the start of May, scaled back staff hours near the same time, and launched a grassroots campaign to raise $200,000 in late April, an effort to stay afloat in a city cutting costs across public services\", \"source_url\": \"https://alemanyfarm.org/donate/\"},\n   {\"text\": \"In April, HSA approved a $186,963 grant extension through June 2026.\", \"source_url\": null}\n ],\n \"correction\": \"Correction: A previous version of this story attributed the farm’s projected budget gap to the San Francisco Human Services Agency. The estimate came from Alemany Farm.\"}\n```\n",
+ "usage": {
+  "input_tokens": 22864,
+  "output_tokens": 631,
+  "cache_read_tokens": 13312,
+  "reasoning_tokens": 0,
+  "total_tokens": 23495,
+  "api_calls": 6,
+  "session_id": "local-bb1d6d8cf31d3a8c9b7ee730c1a2caa18b8f285bca26771bf26ac3d3b457f1fa"
+ }
+}

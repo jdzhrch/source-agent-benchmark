@@ -1,0 +1,22 @@
+{
+ "case": "F1",
+ "set": "main",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:39+00:00",
+ "seconds": 13.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that three young men arrived at the GameStop on Mission Street at 6 a.m. to wait for “The Legend of Zelda: Tears of the Kingdom,” bringing folding chairs, snacks and work essentials. About 10 more gamers joined them over the next three hours. The first three got the store’s first collector’s-edition slots; the story also described the wait as a “dying tradition” as more people buy games digitally.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of “Legend of Zelda: Tears of the Kingdom.”\", \"source_url\": null}, {\"text\": \"For the next three hours, a line of some 10 fellow gamers slowly formed behind the three early birds, all hoping to buy a physical copy of the “Legend of Zelda: Breath of the Wild” sequel.\", \"source_url\": null}, {\"text\": \"But now, standing and waiting outside a shop to grab another physical game, Sanchez lamented that doing so was “a dying tradition.”\", \"source_url\": null}],\n \"correction\": \"An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"}\n```\n",
+ "usage": {
+  "input_tokens": 10449,
+  "output_tokens": 393,
+  "cache_read_tokens": 5632,
+  "reasoning_tokens": 0,
+  "total_tokens": 10842,
+  "api_calls": 3,
+  "session_id": "local-5899d6333b992d57a03c3b47f961837cdb59d1fcd9c8daceff0a2246a2679966"
+ }
+}

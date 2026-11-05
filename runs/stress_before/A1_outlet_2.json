@@ -1,0 +1,22 @@
+{
+ "case": "A1",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:00+00:00",
+ "seconds": 22.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s May 13, 2023, story was “People We Meet: In line for Zelda at GameStop,” by Lingzi Chen. It describes three young men arriving at 6 a.m. at the GameStop on Mission Street to buy “Legend of Zelda: Tears of the Kingdom.”\n\n“They unfolded their chairs and sat side-by-side outside the locked game store, waiting for it to open at 10 a.m. The sun had not yet risen.”\n\nThe story carries this correction: “Correction: An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.”\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop/\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of \\\"Legend of Zelda: Tears of the Kingdom.\\\"\",\"source_url\": null}, {\"text\": \"They unfolded their chairs and sat side-by-side outside the locked game store, waiting for it to open at 10 a.m. The sun had not yet risen.\",\"source_url\": null}],\n \"correction\": \"Correction: An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"}\n",
+ "usage": {
+  "input_tokens": 18593,
+  "output_tokens": 541,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19134,
+  "api_calls": 5,
+  "session_id": "local-797c245e4a1f8c34310ec01b399033bd3c218e4aaa285aa4e5aac65c76d56308"
+ }
+}

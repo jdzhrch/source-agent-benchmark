@@ -1,0 +1,22 @@
+{
+ "case": "A3",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:20+00:00",
+ "seconds": 20.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The numbers piece found that 412,231 ballots were cast, for 78.9% turnout. In the local results, every ballot proposition passed except Propositions D and F. It also highlighted a geographic split on Prop. K: strong support on the city’s east side and strong opposition on the west side.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/election-2024-see-results-across-san-francisco\",\n \"published\": \"2024-11-15\",\n \"quotes\": [{\"text\": \"A total of 412,231 ballots were cast, representing 78.9 percent in overall turnout.\", \"source_url\": null}, {\"text\": \"All propositions passed, except Proposition D, the commission reform measure, and Proposition F, the police retirement deferral measure.\", \"source_url\": null}, {\"text\": \"Some races were distinctly divided by geography, such as Proposition K, to close the Great Highway, which received strong support on the city’s east side and strong opposition on the west side.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 31336,
+  "output_tokens": 432,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 31768,
+  "api_calls": 5,
+  "session_id": "local-8e68a1857e373829cb3f5a86f5870eb0127e7bb51dd554e0d535f892c032808a"
+ }
+}

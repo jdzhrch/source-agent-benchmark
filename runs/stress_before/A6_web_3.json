@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:54:49+00:00",
+ "seconds": 14.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that then-Assistant District Attorney Brooke Jenkins accessed a confidential rap sheet in a case she had no connection to and emailed it to a colleague who also had no connection to the case. The State Bar later required her to participate in an ethics diversion program.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar\",\n \"published\": \"2025-04-17\",\n \"quotes\": [{\"text\": \"In November 2022, Mission Local revealed that, in her final week on the job as an assistant district attorney, Brooke Jenkins accessed the confidential “rap sheet” for a case to which she had no connection, and emailed it to a colleague who also had no connection to the case.\", \"source_url\": \"https://missionlocal.org/2022/11/brooke-jenkins-don-dubain-troy-mcallister-police-report-rap-sheet-recall-chesa-boudin/\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 19269,
+  "output_tokens": 382,
+  "cache_read_tokens": 11776,
+  "reasoning_tokens": 0,
+  "total_tokens": 19651,
+  "api_calls": 4,
+  "session_id": "local-55fd6d63ea4d62567487af9fef69aa15feb2b0ea77b486b8b9d9012674adae22"
+ }
+}

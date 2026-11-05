@@ -1,0 +1,22 @@
+{
+ "case": "C2",
+ "set": "clarify",
+ "arm": "clarify_off",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:06:52+00:00",
+ "seconds": 31.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA had a recent history of buying small buildings and converting them to below-market-rate housing. The article said a proposed $105 million in low-interest loans under Proposition C would help nonprofit housing organizations buy at-risk properties and expand acquisitions; buildings bought by MEDA earlier that year averaged $400,000 per unit. This story describes a housing program, not the plans for a specific building, so it doesn’t establish whether anyone at a particular address would have to move.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/09/city-officials-push-to-free-261-million-for-affordable-housing/\",\n \"published\": \"2016-09-09\",\n \"quotes\": [\n   {\"text\": \"As a non-profit organization with a recent history of buying small buildings and converting them to below-market-rate housing, MEDA would be able to access loans to expand its acquisition of housing.\", \"source_url\": \"http://missionlocal.org/2016/03/neighbors-pitch-in-to-help-non-profit-buy-precita-eyes-building/\"},\n   {\"text\": \"Other buildings purchased by MEDA earlier this year came out to $400,000 per unit.\", \"source_url\": \"http://missionlocal.org/2016/02/nonprofits-secure-five-sf-buildings-keep-tenants-in-place/\"},\n   {\"text\": \"Proposition C would make $105 million in low-interest loans available for non-profit housing organizations to buy “at-risk” properties in San Francisco with more than three units.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18997,
+  "output_tokens": 566,
+  "cache_read_tokens": 13824,
+  "reasoning_tokens": 0,
+  "total_tokens": 19563,
+  "api_calls": 5,
+  "session_id": "local-f469fb6707a93217ab4016a2d876a8a80a5735da7465f27afe30dfea18c48b2e"
+ }
+}

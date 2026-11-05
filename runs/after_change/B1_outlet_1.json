@@ -1,0 +1,22 @@
+{
+ "case": "B1",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:29+00:00",
+ "seconds": 26.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a male after-school worker at Everett Middle School was arrested for allegedly having inappropriate contact with a student. The district said the school reported the incident to police, and that police and SFUSD were investigating. The after-school program was run by Mission Graduates; the story said it was unclear whether the man was an employee or volunteer.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\",\n \"published\": \"2024-03-07\",\n \"quotes\": [{\"text\": \"A male after-school worker at Everett Middle School was arrested yesterday by San Francisco police for an allegedly inappropriate contact with a student, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"The after-school program is run by Mission Graduates.\", \"source_url\": null}, {\"text\": \"The incident is currently under investigation by both police and SFUSD.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story cited parents saying that they had not received any communication immediately following the incident. The story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18735,
+  "output_tokens": 492,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 19227,
+  "api_calls": 5,
+  "session_id": "local-c9a4a68922c93cad222c052b5fe551dbabf6a4a67589b133b46c5de64f005de3"
+ }
+}

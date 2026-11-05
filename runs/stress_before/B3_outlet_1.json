@@ -1,0 +1,22 @@
+{
+ "case": "B3",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:26+00:00",
+ "seconds": 24.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that all the candidates supported bringing back street vendors. Some proposed a vendor-inclusive committee or commission, a community planning process, or designated vending spaces; Jackie Fielder also called for protecting vendors from criminalization.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/district-9-contenders-talk-mission-street-vending-in-forum/\",\n \"published\": \"2024-06-05\",\n \"quotes\": [{\"text\": \"All of the candidates were in support of bringing back street vendors; a street-vendors organization was one of the debate’s co-sponsors.\",\"source_url\": null},{\"text\": \"Torres and Brown both called for creating designated spaces for vendors.\",\"source_url\": null},{\"text\": \"Along with other candidates, Fielder advocated for the vendors' voices in this conversation, and called on protecting them from criminalization.\",\"source_url\": null}],\n \"correction\": \"An earlier version stated none of the candidates mentioned Trevor Chandler's absence; Jackie Fielder did mention his absence without referring to him by name.\"}\n",
+ "usage": {
+  "input_tokens": 18266,
+  "output_tokens": 450,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 18716,
+  "api_calls": 5,
+  "session_id": "local-892a0e5613a36a85ff97db164c449d653f7b92abeb16f11796a43323a7d0c68d"
+ }
+}

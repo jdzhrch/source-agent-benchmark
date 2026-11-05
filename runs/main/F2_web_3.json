@@ -1,0 +1,22 @@
+{
+ "case": "F2",
+ "set": "main",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:55+00:00",
+ "seconds": 12.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Mayor Daniel Lurie accepted an amendment excluding rent-controlled buildings with three or more units from the upzoning plan. Its analysis estimated the change would exempt at least 84,000 rental units in 11,700 buildings, along with any ground-floor retail beneath them. Two-unit buildings remained covered, leaving about 20,700 of them in the plan. The story said the exemption was considered compatible with the state housing mandate because the city’s capacity formula had already assumed certain older buildings would not be redeveloped.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\",\n \"published\": \"2025-10-16\",\n \"quotes\": [{\"text\": \"The amendment exempts at least 84,000 rental units in 11,700 buildings from the upzoning plan, and any ground-floor retail that might be under them, according to analysis by Mission Local.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 20970,
+  "output_tokens": 347,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 21317,
+  "api_calls": 4,
+  "session_id": "local-11ee8ea7a764c03eefb76b525d924e4cb58daeb1cbad4e8f202cc9263851b523"
+ }
+}

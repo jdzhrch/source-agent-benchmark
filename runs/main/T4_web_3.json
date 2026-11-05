@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:35+00:00",
+ "seconds": 12.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s Tesla factory story was about the old NUMMI plant in Fremont—not a factory in the Mission District. It reported that Tesla planned to begin making cars there in March. The separate Mission District manufacturing story was about Heath Ceramics opening a factory on Florida and 18th streets.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2011/07/tesla-motors-will-begin-making-cars-in-old-nummi-plant-in-march/\",\n \"published\": \"2011-07-04\",\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 15986,
+  "output_tokens": 269,
+  "cache_read_tokens": 11776,
+  "reasoning_tokens": 0,
+  "total_tokens": 16255,
+  "api_calls": 4,
+  "session_id": "local-3c01f07e5433605fdea5fadb7d5db15b32f69e78aaa3a74c5562359ff35418d7"
+ }
+}

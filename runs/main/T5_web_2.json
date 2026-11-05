@@ -1,0 +1,22 @@
+{
+ "case": "T5",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:13+00:00",
+ "seconds": 16.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "No. Mission Local’s reporting found no quotation of Mayor Daniel Lurie saying, “we will close every homeless shelter in the city by June.” Its coverage discusses his goal of creating shelter and treatment beds, not closing every shelter.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 29804,
+  "output_tokens": 256,
+  "cache_read_tokens": 20352,
+  "reasoning_tokens": 0,
+  "total_tokens": 30060,
+  "api_calls": 5,
+  "session_id": "local-a257195a409e84a7fe172a6bd33b2b54b46f3091b6e7fac0e53eb883ce229961"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "B4",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:03:04+00:00",
+ "seconds": 23.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local asked the District 3 supervisor candidates what they thought about the Granada Hotel. Their responses ranged from criticism of the city’s acquisition and its effects on tenants to calls for stronger safety policies and better conditions.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\",\n \"published\": \"2024-06-06\",\n \"quotes\": [\n   {\"text\": \"The city's acquisition of the Granada Hotel has been a challenge for the existing senior-citizen population and those awaiting placement into the project’s new supportive housing.\", \"source_url\": null},\n   {\"text\": \"The state’s time-bound Homekey funding allowed for the acquisition and conversion of the Granada, but it was rushed and didn’t adequately consider the risks of integrating formerly homeless populations with legacy tenants.\", \"source_url\": null},\n   {\"text\": \"I would work with all stakeholders to ensure zero-tolerance policies for drug use in common areas, that essential building and worker safety projects are fast-tracked, and that neighbors have their concerns addressed.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18146,
+  "output_tokens": 466,
+  "cache_read_tokens": 15360,
+  "reasoning_tokens": 0,
+  "total_tokens": 18612,
+  "api_calls": 5,
+  "session_id": "local-a32767268d5e9c0c3c323385abd25da9724af04d2d60821ce4386236d5d73d07"
+ }
+}

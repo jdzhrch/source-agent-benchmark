@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:49+00:00",
+ "seconds": 20.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published “Meet the District 5 candidates: Where does power lie in SF?” on May 28, 2024. It asked candidates to discuss the division of power in San Francisco and where power truly lies in the city.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 18156,
+  "output_tokens": 368,
+  "cache_read_tokens": 13184,
+  "reasoning_tokens": 0,
+  "total_tokens": 18524,
+  "api_calls": 5,
+  "session_id": "local-a056a4929027780d8f83b870d30471ab83b9db58fadc42d9e6a6d3be1b9df0f6"
+ }
+}

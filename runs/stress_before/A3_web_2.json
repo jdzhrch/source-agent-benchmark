@@ -1,0 +1,22 @@
+{
+ "case": "A3",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:20+00:00",
+ "seconds": 13.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s numbers piece found that San Francisco turnout was 78.9%—slightly above the historical presidential-election average of 77%, but well below 2020’s 86.3%. About 412,000 people voted, roughly 38,000 fewer than in 2020, despite a similar number of registered voters.\n\nIt also found sharp geographic divides: Prop. K passed citywide 55–45 even though districts near the Great Highway voted overwhelmingly against it. Daniel Lurie’s mayoral campaign spent $16 million, while Prop. D’s $9.5 million in fundraising did not prevent its defeat. The article also discussed how redistricting affected supervisor races.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"This November, turnout was a far cry from that: 78.9 percent.\", \"source_url\": null}, {\"text\": \"About 412,000 people voted in this year’s general election, 38,000 fewer than in 2020 — even though the total number of registered voters is about the same: 522,265 in this election compared to 521,099 in 2020.\", \"source_url\": \"https://www.sfelections.org/tools/election_data/index.php\"}, {\"text\": \"Voters in districts closer to the Great Highway voted overwhelmingly against the measure; that’s Districts 1, 4, 7 and 11.\" ,\"source_url\": null}],\n \"correction\": \"A previous version of this article incorrectly cited a lower number of registered voters.\"}\n",
+ "usage": {
+  "input_tokens": 12640,
+  "output_tokens": 455,
+  "cache_read_tokens": 7424,
+  "reasoning_tokens": 0,
+  "total_tokens": 13095,
+  "api_calls": 3,
+  "session_id": "local-f6aa77ab9a94888eb1af13e966ee5d496f4191d36f694da331e1eaa0773ae11f"
+ }
+}

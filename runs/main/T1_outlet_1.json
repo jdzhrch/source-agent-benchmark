@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:33+00:00",
+ "seconds": 40.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that San Francisco State lecturers were told their spring classes would be cut, with some losing one or two classes and others losing their entire workloads. The story said lecturers faced the largest reductions: about a 30 percent decrease for most colleges. The university’s budget committee presentation said cuts could equal 125 full-time positions; the number of lecturers affected was unknown.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\", \"source_url\": \"https://www.calfac.org/\"}, {\"text\": \"Some are losing a class or two, while others will lose their entire workloads, depending on the department.\", \"source_url\": null}, {\"text\": \"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\", \"source_url\": \"https://marcomm.sfsu.edu/sf-state-facts\"}],\n \"correction\": \"Correction: A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n```\n",
+ "usage": {
+  "input_tokens": 19095,
+  "output_tokens": 553,
+  "cache_read_tokens": 9600,
+  "reasoning_tokens": 0,
+  "total_tokens": 19648,
+  "api_calls": 5,
+  "session_id": "local-6aa22ee88cd3ef7fea6d63af010f608f16e1d0503cfb10622664c42c1826e635"
+ }
+}

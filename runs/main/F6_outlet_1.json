@@ -1,0 +1,22 @@
+{
+ "case": "F6",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:32+00:00",
+ "seconds": 30.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar directed Brooke Jenkins to participate in a diversionary program after ethics complaints, in what the newsroom described as an unusual step involving a sitting prosecutor. Its story also said the complaints were “best resolved” by requiring her participation, and that the Bar acted on the complaint concerning her access to and sharing of a confidential rap sheet.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [\n   {\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"},\n   {\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\", \"source_url\": null},\n   {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18667,
+  "output_tokens": 601,
+  "cache_read_tokens": 6144,
+  "reasoning_tokens": 0,
+  "total_tokens": 19268,
+  "api_calls": 5,
+  "session_id": "local-19deae75d333498689f953080dadbb7aa04ca32ff8c7fc267b0c52f9628f4266"
+ }
+}

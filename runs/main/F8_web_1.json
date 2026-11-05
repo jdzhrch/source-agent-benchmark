@@ -1,0 +1,22 @@
+{
+ "case": "F8",
+ "set": "main",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:41+00:00",
+ "seconds": 15.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "No. Mission Local published a similar sentence, but the figures were different: “This translates into an annual income of $83,900 for one person, or $107,900 for a family of three.”\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing/\",\n \"published\": \"2024-05-29\",\n \"quotes\": [{\"text\": \"This translates into an annual income of $83,900 for one person, or $107,900 for a family of three.\", \"source_url\": \"https://www.sf.gov/sites/default/files/2024-04/2024%20AMI-IncomeLimits-HMFA.pdf\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 22889,
+  "output_tokens": 334,
+  "cache_read_tokens": 17536,
+  "reasoning_tokens": 0,
+  "total_tokens": 23223,
+  "api_calls": 5,
+  "session_id": "local-b003d1df6aabd30c14a9c4ca410a18d50ff92bd1736957df5e9fd1e77ba5a15a"
+ }
+}

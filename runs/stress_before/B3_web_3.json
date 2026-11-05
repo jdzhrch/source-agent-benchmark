@@ -1,0 +1,22 @@
+{
+ "case": "B3",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:24+00:00",
+ "seconds": 16.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The candidates all supported bringing street vendors back, but moderator Maria Antonieta Mejía pressed them to explain how they would protect vendors. Their proposals included a committee or commission with vendors, a broader community-and-city planning process, and designated vending spaces. Jackie Fielder also called for vendors’ voices and protection from criminalization.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/district-9-contenders-talk-mission-street-vending-in-forum/\",\n \"published\": null,\n \"quotes\": [\n   {\"text\": \"All of the candidates were in support of bringing back street vendors; a street-vendors organization was one of the debate’s co-sponsors.\", \"source_url\": null},\n   {\"text\": \"But moderator Mejía pushed candidates to discuss, in detail, how they would protect vendors.\", \"source_url\": null},\n   {\"text\": \"“Vending is the backbone of our economic and cultural legacy here in the Mission and across Latin America,” said Fielder.\", \"source_url\": null}\n ],\n \"correction\": \"An earlier version of this piece stated that none of the candidates mentioned the absence of Trevor Chandler from the debate. Jackie Fielder did mention his absence without referring to him by name.\"}\n```\n",
+ "usage": {
+  "input_tokens": 19713,
+  "output_tokens": 391,
+  "cache_read_tokens": 9600,
+  "reasoning_tokens": 0,
+  "total_tokens": 20104,
+  "api_calls": 4,
+  "session_id": "local-e4579e8d76147c196e93332401dbb62d338240af4974318805f8248c8b0751eb"
+ }
+}

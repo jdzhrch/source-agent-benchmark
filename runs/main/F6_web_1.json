@@ -1,0 +1,22 @@
+{
+ "case": "F6",
+ "set": "main",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:26+00:00",
+ "seconds": 13.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar required San Francisco District Attorney Brooke Jenkins to participate in an ethics diversion program after complaints concerning her access to and sharing of a confidential rap sheet. The article called the decision ironic, noting that Jenkins had moved away from diversion programs promoted by her predecessor, Chesa Boudin. It also quoted a State Bar spokesperson describing diversion as a way to provide education, direction and warning.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar\",\n \"published\": \"2025-04-09\",\n \"quotes\": [{\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\", \"source_url\": null}, {\"text\": \"Jenkins, in her two years and change atop the office, has moved drastically away from the diversionary programs championed by her ousted predecessor, Chesa Boudin.\", \"source_url\": null}, {\"text\": \"Diversion, he continues, “serves many of the purposes of discipline,” in part through “education, direction [and] warning.”\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 12760,
+  "output_tokens": 370,
+  "cache_read_tokens": 6400,
+  "reasoning_tokens": 0,
+  "total_tokens": 13130,
+  "api_calls": 3,
+  "session_id": "local-08c24740af2260b4bb060f10819fefc0d8bf71b7a840acafac2762af76ea2b28"
+ }
+}

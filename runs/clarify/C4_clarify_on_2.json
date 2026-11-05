@@ -1,0 +1,22 @@
+{
+ "case": "C4",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:37+00:00",
+ "seconds": 33.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a 2016 pilot allowing people to rent lawn space at Dolores Park was quickly ended after controversy. The policy change limited reservations to picnic tables; the article also noted that permit fees help cover cleanup costs. It does not establish that every large picnic needs a paid lawn reservation.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/rec-park-to-disband-paid-lawn-reservation-system/\",\n \"published\": \"2016-05-24\",\n \"quotes\": [{\"text\": \"News of a lawn-rental pilot program at Dolores Park quickly attracted controversy and political debate on Monday and by Tuesday, Supervisor Scott Wiener announced he had worked out a deal with the Recreation and Parks Department to end the rental of lawn space.\", \"source_url\": null}, {\"text\": \"“To address this concern, I worked with Rec & Park to change its reservation policy by limiting reservations to picnic tables.”\", \"source_url\": \"https://medium.com/@Scott_Wiener/supervisor-wieners-statement-on-dolores-park-picnic-reservations-98a35ed3b2e8#.so3stpsn0\"}, {\"text\": \"Both Kahn and Wiener emphasized that a reservation system has existed for a long time in the parks, that permit fees help offset the cost of cleaning up trash ($750,000 in Dolores Park alone last year), and that even lawn reservations already exist in many other city parks.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 23422,
+  "output_tokens": 626,
+  "cache_read_tokens": 17792,
+  "reasoning_tokens": 0,
+  "total_tokens": 24048,
+  "api_calls": 6,
+  "session_id": "local-ad1a8dbffaa37b1ddfdceea743ad5dda5ed0a6ad82dd1f32f8474bc68976de7b"
+ }
+}

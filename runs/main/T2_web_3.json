@@ -1,0 +1,22 @@
+{
+ "case": "T2",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:22+00:00",
+ "seconds": 13.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a 16-year-old spent nearly three weeks in San Francisco County Jail after being booked under a different name and an adult age. The city took 20 days to verify he was a minor, despite an early alert. During that time, he was kept apart from adult inmates in C Pod, a special-needs unit; a judge ultimately ordered him transferred to juvenile hall and set bail at $10,000. The story said he faced drug-sale-related felony charges.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/09/16-year-old-boy-held-s-f-adult-jail-almost-3-weeks/\",\n \"published\": \"2025-09-04\",\n \"quotes\": [{\"text\": \"A 16-year-old was incarcerated in San Francisco County Jail for almost three weeks after he allegedly gave a false name and birthday to law enforcement.\", \"source_url\": null}, {\"text\": \"The city took 20 days to verify that the defendant is a minor, despite being alerted to the possibility almost immediately after the boy’s arrest.\", \"source_url\": null}, {\"text\": \"Almost three weeks after the defendant’s arrest, Eskin ordered that he be transferred to juvenile hall and held on $10,000 bail.\", \"source_url\": null}],\n \"correction\": \"An earlier version of this story misstated the age of the defendant as 17. He is 16.\"\n}\n```\n",
+ "usage": {
+  "input_tokens": 21404,
+  "output_tokens": 461,
+  "cache_read_tokens": 13184,
+  "reasoning_tokens": 0,
+  "total_tokens": 21865,
+  "api_calls": 3,
+  "session_id": "local-70b3067d4679e148fb76d73db18b64adbf79f41971dcee9659d80f1b2db70813"
+ }
+}

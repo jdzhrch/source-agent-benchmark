@@ -1,0 +1,22 @@
+{
+ "case": "F7",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:07+00:00",
+ "seconds": 17.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s agent found no story reporting that the city turned Dolores Park into a paid parking lot. It identified a nearby but different topic: a 2011 hearing on paid parking permits in the Dolores Park area, not converting the park itself.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17903,
+  "output_tokens": 292,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 18195,
+  "api_calls": 5,
+  "session_id": "local-306b0d423cb149d8714e45275c85af9bb6860fa3f368a68ecd52887639e2d26e"
+ }
+}

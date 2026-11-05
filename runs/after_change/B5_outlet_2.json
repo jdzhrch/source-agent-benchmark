@@ -1,0 +1,22 @@
+{
+ "case": "B5",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:01:25+00:00",
+ "seconds": 26.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The story was “See how they run: The polls say Peskin just might win. Or maybe Breed? Or Lurie? Or Farrell?” It reports on Aaron Peskin’s campaign visit to a house party hosted by former Supervisor Sophie Maxwell, where he discussed the crowded mayoral race and the need to reach the top two in first-place votes. The verified package doesn’t specifically mention neighborhood concerns about taller buildings.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/10/see-how-they-run-the-polls-say-peskin-just-might-win-or-maybe-breed-or-lurie-or-farrell/\",\n \"published\": \"2024-10-18\",\n \"quotes\": [{\"text\": \"“So, there are actually 13 people in the mayor’s race,” says Aaron Peskin to a group of about a dozen people gathered at a house party held by former District 10 Supervisor Sophie Maxwell last Saturday night.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 18274,
+  "output_tokens": 439,
+  "cache_read_tokens": 15872,
+  "reasoning_tokens": 0,
+  "total_tokens": 18713,
+  "api_calls": 5,
+  "session_id": "local-90a1f29e83f366bc96710bc76a104c128d9f8d2c127ae24e2b515bc6c53de4d3"
+ }
+}

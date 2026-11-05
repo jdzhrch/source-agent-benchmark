@@ -1,0 +1,22 @@
+{
+ "case": "F7",
+ "set": "main",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:44+00:00",
+ "seconds": 21.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported in May 2016 that San Francisco’s Recreation and Parks Department had reinstated reservations for parts of Dolores Park, charging fees from $33 to $325, plus a $200 security deposit. The reservable areas included open grass, picnic tables and an overlook. After public backlash and objections from supervisors about restricting access to public space, the department agreed to suspend lawn reservations and limit reservations to picnic tables.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/dolores-park-follies-paid-lawn-reservations/\",\n \"published\": \"2016-05-23\",\n \"quotes\": [\n   {\"text\": \"The San Francisco Recreation and Parks Department has begun to allow reservations of parts of Dolores Park — for a fee ranging from $33 for groups under 50 to $325 for those larger than 400.\", \"source_url\": \"https://sfrecpark.org/wp-content/uploads/Picnic-Impact-Fees-2016.pdf\"},\n   {\"text\": \"“A few areas of the park are made available for birthday parties and picnics to provide more accountability and to ensure our parks are left clean for all visitors and residents to enjoy,” Pon wrote in an email.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 33727,
+  "output_tokens": 487,
+  "cache_read_tokens": 23168,
+  "reasoning_tokens": 0,
+  "total_tokens": 34214,
+  "api_calls": 6,
+  "session_id": "local-2e938c3b73fb38914ae108083ea2c8b2bc9ee86a5c76687d414725faf4b991c5"
+ }
+}

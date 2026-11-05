@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:08+00:00",
+ "seconds": 19.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s archive reports no story about Tesla opening a car factory in the Mission District. Its agent identified a possible story about Tesla making cars at the old NUMMI plant, dated July 4, 2011, but said the title does not place that plant in the Mission District.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17896,
+  "output_tokens": 308,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 18204,
+  "api_calls": 5,
+  "session_id": "local-e958dda00220c9adba9b572d4c747cf31bd2c9b00fee70686e9896440855562e"
+ }
+}

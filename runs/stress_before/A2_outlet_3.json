@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:54:21+00:00",
+ "seconds": 34.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local covered the issue in “Engardio recallers draw line in the sand at Mayor Lurie’s upzoning plan,” published September 23, 2025.\n\n“District 1 Supervisor Connie Chan and District 7 Supervisor Myrna Melgar, both representing the Westside, are pushing to add amendments to the plan or pass legislations to cut down displacement risks for tenants and small businesses.”\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/09/sf-sunset-joel-engardio-recall-mayor-upzoning/\",\n \"published\": \"2025-09-23\",\n \"quotes\": [{\"text\": \"District 1 Supervisor Connie Chan and District 7 Supervisor Myrna Melgar, both representing the Westside, are pushing to add amendments to the plan or pass legislations to cut down displacement risks for tenants and small businesses.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 26542,
+  "output_tokens": 552,
+  "cache_read_tokens": 23040,
+  "reasoning_tokens": 0,
+  "total_tokens": 27094,
+  "api_calls": 7,
+  "session_id": "local-2c5584f55ee69bd103bdc4608446b45557b857f93fe399ddcd2a7f022c48ac87"
+ }
+}

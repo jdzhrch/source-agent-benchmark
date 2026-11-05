@@ -1,0 +1,22 @@
+{
+ "case": "A3",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:14+00:00",
+ "seconds": 25.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local found that Daniel Lurie’s campaign and its allies spent $156.14 per first-choice vote—the highest cost per vote among the mayoral candidates. London Breed’s side spent $58.86 per vote, Aaron Peskin $34.27 and Mark Farrell $85.03. Chyanne Chen’s close District 11 race had the second-most expensive vote, at $114.66 per first-choice vote.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/explore-how-much-did-your-vote-cost-in-the-s-f-november-election-use-our-tool-to-find-out/\",\n \"published\": \"2024-11-26\",\n \"quotes\": [{\"text\": \"The cost: $156.14 for each first-choice vote.\", \"source_url\": null}, {\"text\": \"That makes him by far the politician who spent the most on a dollar-per-vote basis.\", \"source_url\": null}, {\"text\": \"His rivals had much smaller war chests and spent much less per vote: London Breed and her allies spent $58.86 per vote, Aaron Peskin $34.27, and Mark Farrell $85.03, making Farrell, who finished fourth, the candidate who got the least for his money.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18338,
+  "output_tokens": 504,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 18842,
+  "api_calls": 5,
+  "session_id": "local-dc2855de5c932a6f47066343cdc719a9df4e40be2f0a7bf938e86a607a593a6f"
+ }
+}

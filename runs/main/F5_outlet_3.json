@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:26+00:00",
+ "seconds": 26.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published “Meet the District 5 candidates: Where does power lie in SF?” on May 28, 2024. It introduced that week’s question about the division of power in the city, noted a TogetherSF proposal to limit city commissions and expand mayoral appointment power, and asked candidates what they thought of it. The verified package does not include the candidates’ individual answers.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null}, {\"text\": \"One of those measures would limit the number of city commissions, disband many existing commissions and/or remove their decision-making authority, and give the mayor majority appointing power for any new commissions.\", \"source_url\": null}, {\"text\": \"We asked the candidates what they think of the proposal.\", \"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2024/05/20240125_CityCommissionsAndMayoralAuthority_TS_LegalText-searchable.pdf\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18400,
+  "output_tokens": 514,
+  "cache_read_tokens": 15360,
+  "reasoning_tokens": 0,
+  "total_tokens": 18914,
+  "api_calls": 5,
+  "session_id": "local-4c934a02a21bd78a0be5df29f408e435977d9655996887e030ee195fecf121fc"
+ }
+}

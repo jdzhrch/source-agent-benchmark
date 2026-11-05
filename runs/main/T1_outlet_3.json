@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:32+00:00",
+ "seconds": 30.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that SF State lecturers were told their classes would be cut back, sometimes entirely, starting in spring. The cuts affected an unknown number of the university’s 1,084 lecturers; the union said lecturers would be affected several times more than the equivalent 125 full-time positions because most work part-time. Some lecturers would lose a class or two, while others would lose their entire workloads. Lecturers faced the largest cuts, about a 30 percent decrease for most colleges, according to a university budget presentation.\n\nStory: “San Francisco State University facing mass staffing cuts,” published September 29, 2023.\n\n```json\n{\"found\":true,\n \"story_url\":\"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\":\"2023-09-29\",\n \"quotes\":[{\"text\":\"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\",\"source_url\":\"https://www.calfac.org/\"},{\"text\":\"Some are losing a class or two, while others will lose their entire workloads, depending on the department.\",\"source_url\":null},{\"text\":\"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\",\"source_url\":\"https://marcomm.sfsu.edu/sf-state-facts\"}],\n \"correction\":\"A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18976,
+  "output_tokens": 599,
+  "cache_read_tokens": 15488,
+  "reasoning_tokens": 0,
+  "total_tokens": 19575,
+  "api_calls": 5,
+  "session_id": "local-daf74efe3b15e29b1e4b2d2eb37f872e4ee5ed624d24b1792bb2092750c401c0"
+ }
+}

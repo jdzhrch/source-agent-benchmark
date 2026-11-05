@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:56+00:00",
+ "seconds": 32.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that San Francisco State lecturers were told their classes would be cut back—sometimes entirely—starting in the spring. The story said lecturers made up about 60 percent of the university’s faculty and were facing the largest cuts, with most colleges seeing about a 30 percent decrease. The union said the cuts would affect several times more lecturers than the number of full-time positions because most lecturers work part-time.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [\n   {\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\", \"source_url\": \"https://www.calfac.org/\"},\n   {\"text\": \"The union said the cuts would affect several times more lecturers, since most are part-time.\", \"source_url\": null},\n   {\"text\": \"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\", \"source_url\": \"https://marcomm.sfsu.edu/sf-state-facts\"}\n ],\n \"correction\": \"Correction: A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"\n}\n```\n",
+ "usage": {
+  "input_tokens": 18739,
+  "output_tokens": 569,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 19308,
+  "api_calls": 5,
+  "session_id": "local-90566063f7448eee4045739a477bf7d5cc51733d05e65f3a6e9d91b0cca2b499"
+ }
+}

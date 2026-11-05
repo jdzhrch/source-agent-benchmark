@@ -1,0 +1,22 @@
+{
+ "case": "A3",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:49+00:00",
+ "seconds": 25.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s interactive precinct-by-precinct numbers piece showed how voters in different neighborhoods voted across races and ballot measures. One finding: Proposition K, which would close the Great Highway, drew strong support on the city’s east side and strong opposition on the west side.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/12/sf-election-november-2024-how-did-your-neighbors-vote/\",\n \"published\": \"2024-12-03\",\n \"quotes\": [{\"text\": \"Some races were distinctly divided by geography, such as Proposition K, to close the Great Highway, which received strong support on the city’s east side and strong opposition on the west side.\", \"source_url\": \"https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18242,
+  "output_tokens": 432,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 18674,
+  "api_calls": 5,
+  "session_id": "local-c427e5ec88903ae8144f5f1666b68fb97fcbae10585f15eed5a382cded36d0e5"
+ }
+}

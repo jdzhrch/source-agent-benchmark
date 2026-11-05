@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:20+00:00",
+ "seconds": 26.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published a Meet the Candidates installment about the division of power in San Francisco, discussing the mayor’s authority, the Board of Supervisors and the city’s commissions. Candidates Allen Jones, Bilal Mahmood and Dean Preston responded; their answers addressed, among other things, whether commissions should be reduced and whether the mayor already has too much power.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null}, {\"text\": \"San Francisco has a strong-mayor system of government.\", \"source_url\": null}, {\"text\": \"We need to make commissioners more independent and less beholden to the mayor.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 56654,
+  "output_tokens": 471,
+  "cache_read_tokens": 41472,
+  "reasoning_tokens": 0,
+  "total_tokens": 57125,
+  "api_calls": 7,
+  "session_id": "local-99745dea9a887e943e6dc09658446c0fafdba5882163fdbf42d10cf33d74a701"
+ }
+}

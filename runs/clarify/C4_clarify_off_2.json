@@ -1,0 +1,22 @@
+{
+ "case": "C4",
+ "set": "clarify",
+ "arm": "clarify_off",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:06:49+00:00",
+ "seconds": 27.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported in 2016 that Rec & Park was ending paid lawn reservations at Dolores Park after controversy over a lawn-rental pilot. The change limited reservations to picnic tables; the department said lawn reservations would be suspended. The story also noted that permit fees help offset cleanup costs.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/rec-park-to-disband-paid-lawn-reservation-system/\",\n \"published\": \"2016-05-24\",\n \"quotes\": [\n   {\"text\": \"News of a lawn-rental pilot program at Dolores Park quickly attracted controversy and political debate on Monday and by Tuesday, Supervisor Scott Wiener announced he had worked out a deal with the Recreation and Parks Department to end the rental of lawn space.\", \"source_url\": null},\n   {\"text\": \"“To address this concern, I worked with Rec & Park to change its reservation policy by limiting reservations to picnic tables.”\", \"source_url\": \"https://medium.com/@Scott_Wiener/supervisor-wieners-statement-on-dolores-park-picnic-reservations-98a35ed3b2e8#.so3stpsn0\"},\n   {\"text\": \"Joey Kahn, a spokesperson for the parks department, confirmed in a statement that the lawn reservations would be suspended.\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18735,
+  "output_tokens": 523,
+  "cache_read_tokens": 6656,
+  "reasoning_tokens": 0,
+  "total_tokens": 19258,
+  "api_calls": 5,
+  "session_id": "local-835b9564bd87f6b69dcd63820c2076d457c198a79baed33d771a771aa7bc55ac"
+ }
+}

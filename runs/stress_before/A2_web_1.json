@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:49:57+00:00",
+ "seconds": 11.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local reported that the revised upzoning plan exempted rent-controlled buildings with three or more apartments, while some two-unit and non-rent-controlled apartment buildings remained eligible for taller zoning and could still face redevelopment pressure.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/explore-how-will-sf-zoning-affect-your-neighborhood/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"Though rent-controlled buildings with three or more units will now be removed from the plan, two-unit buildings, plus non-rent controlled apartment buildings, are still included.\", \"source_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 16493,
+  "output_tokens": 324,
+  "cache_read_tokens": 7424,
+  "reasoning_tokens": 0,
+  "total_tokens": 16817,
+  "api_calls": 3,
+  "session_id": "local-31bd796555d6a9cdbe7ae46d16102688eb9af2af016eec4caeb7770d4422d9e4"
+ }
+}

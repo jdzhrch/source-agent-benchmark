@@ -1,0 +1,22 @@
+{
+ "case": "F6",
+ "set": "main",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:56+00:00",
+ "seconds": 12.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar had directed San Francisco DA Brooke Jenkins to participate in an ethics diversion program over her improper access to and sharing of a confidential rap sheet. The column described the decision as ironic because Jenkins had moved away from diversion programs as DA, and argued that her explanation for accessing and emailing the record appeared to be a tacit admission of breaking the law.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar\",\n \"published\": \"2025-04-09\",\n \"quotes\": [{\"text\": \"Yesterday, Michael Barba at the Chronicle reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"}, {\"text\": \"Jenkins, in her two years and change atop the office, has moved drastically away from the diversionary programs championed by her ousted predecessor, Chesa Boudin. Now, to borrow the line from “Pirates of the Caribbean,” she’s in one.\", \"source_url\": \"https://x.com/jrivanob/status/1909657011396169766/photo/1\"}, {\"text\": \"So, it is very hard not to read Jenkins’ explanation, as recounted in the State Bar letter, as being a tacit admission of breaking the law.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 12239,
+  "output_tokens": 432,
+  "cache_read_tokens": 7424,
+  "reasoning_tokens": 0,
+  "total_tokens": 12671,
+  "api_calls": 3,
+  "session_id": "local-13cc1757baa5c5949baf4251af6a9d6c85b2bd7096c9e7615b14f76670300c33"
+ }
+}

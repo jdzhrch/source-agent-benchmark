@@ -1,0 +1,22 @@
+{
+ "case": "A1",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:03+00:00",
+ "seconds": 24.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s May 13, 2023 piece was “People We Meet: In line for Zelda at GameStop,” by Lingzi Chen.\n\n“The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of \"Legend of Zelda: Tears of the Kingdom.\"”\n\n“They unfolded their chairs and sat side-by-side outside the locked game store, waiting for it to open at 10 a.m. The sun had not yet risen.”\n\n“They arrived earlier than anyone else, and got the first three slots to buy a collector’s edition — a $129.99 purchase, compared to $69.99 for the standard edition.”\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop/\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of \\\"Legend of Zelda: Tears of the Kingdom.\\\"\",\"source_url\": null}, {\"text\": \"They unfolded their chairs and sat side-by-side outside the locked game store, waiting for it to open at 10 a.m. The sun had not yet risen.\",\"source_url\": null}, {\"text\": \"Their plan worked: They arrived earlier than anyone else, and got the first three slots to buy a collector’s edition — a $129.99 purchase, compared to $69.99 for the standard edition.\",\"source_url\": null}],\n \"correction\": \"Correction: An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18590,
+  "output_tokens": 607,
+  "cache_read_tokens": 15488,
+  "reasoning_tokens": 0,
+  "total_tokens": 19197,
+  "api_calls": 5,
+  "session_id": "local-f7febdf9b9831ceada20838fc8aa6b43b4a064b886da38a66d646d318d976f83"
+ }
+}

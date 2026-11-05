@@ -1,0 +1,22 @@
+{
+ "case": "B5",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:06:52+00:00",
+ "seconds": 246.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s “See how they run: Dolores Huerta also endorses Aaron Peskin” reported on Huerta’s endorsement of Peskin and followed his mayoral campaign. It noted that her support focused on labor rights and housing affordability, amid a campaign shaped by labor groups’ organizing and spending.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/10/see-how-they-run-dolores-huerta-also-endorses-aaron-peskin/\",\n \"published\": \"2024-10-18\",\n \"quotes\": [\n   {\"text\": \"This week: Aaron Peskin.\", \"source_url\": null},\n   {\"text\": \"Huerta’s support of Peskin is more focused on labor rights and housing affordability.\", \"source_url\": null},\n   {\"text\": \"The introduction to Huerta was just the latest move by the National Union of Healthcare Workers bolstering Peskin’s campaign: They gave a pro-Peskin PAC $75,000 on Oct. 11, and recently rescinded their No. 2 endorsement of Peskin’s opponent, Ahsha Safaí, because Safaí made an alliance with Mark Farrell.\", \"source_url\": \"https://missionlocal.org/2024/10/follow-the-money-labor-bets-big-on-peskin-spends-again/\"}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18345,
+  "output_tokens": 521,
+  "cache_read_tokens": 16512,
+  "reasoning_tokens": 0,
+  "total_tokens": 18866,
+  "api_calls": 5,
+  "session_id": "local-40fb91c5254b1ff64a334dc09f2cba844011108931e8f230fb6274488bc8ef46"
+ }
+}

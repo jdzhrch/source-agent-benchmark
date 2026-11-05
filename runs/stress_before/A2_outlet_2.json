@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:15+00:00",
+ "seconds": 25.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local published “Most rent-controlled buildings to be exempted from S.F. upzoning plan” on October 16, 2025. The story says the plan would allow taller, denser buildings in the city’s western and northern parts, while an amendment exempted many buildings with rent-controlled apartments.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\",\n \"published\": \"2025-10-16\",\n \"quotes\": [{\"text\": \"The mayor’s plan to upzone swaths of San Francisco will no longer apply to buildings with three or more rent-controlled apartments.\", \"source_url\": null}, {\"text\": \"If accepted by the Board of Supervisors and approved by the state, that plan will allow developers to build taller, denser buildings in the western and northern parts of the city, so long as at least one additional unit of housing is being added to the lot.\", \"source_url\": null}, {\"text\": \"This amendment is in response to fears from renters and tenant advocates that the mayor's previous plan would result in less affordable housing, not more, by spurring the demolition of the only housing that the city is allowed to impose rent control on: Housing that was built before 1979.\", \"source_url\": null}],\n \"correction\": \"A previous version of this article stated the number of remaining two unit rent-controlled units subject to height increases was 16. It is 32.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18695,
+  "output_tokens": 540,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 19235,
+  "api_calls": 5,
+  "session_id": "local-bf9e7b49a09cb43ef27120b55a91e5b980eafaa1cfe1ae557eec8909d7565f3d"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "F1",
+ "set": "main",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:50+00:00",
+ "seconds": 15.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that three friends arrived at the GameStop on Mission Street at 6 a.m. to wait for “The Legend of Zelda: Tears of the Kingdom,” with folding chairs, snacks and laptops. About 10 more gamers joined the line over the next three hours. The friends were hoping to buy the limited collector’s edition, and the first three in line got the first three slots to purchase one.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of “Legend of Zelda: Tears of the Kingdom.”\", \"source_url\": null}, {\"text\": \"For the next three hours, a line of some 10 fellow gamers slowly formed behind the three early birds, all hoping to buy a physical copy of the “Legend of Zelda: Breath of the Wild” sequel.\", \"source_url\": null}, {\"text\": \"Their plan worked: They arrived earlier than anyone else, and got the first three slots to buy a collector’s edition — a $129.99 purchase, compared to $69.99 for the standard edition.\", \"source_url\": null}],\n \"correction\": \"An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"}\n```\n",
+ "usage": {
+  "input_tokens": 15099,
+  "output_tokens": 446,
+  "cache_read_tokens": 11392,
+  "reasoning_tokens": 0,
+  "total_tokens": 15545,
+  "api_calls": 4,
+  "session_id": "local-26c768cac41cf6479b50e6c2e953bcc38a6bbe813aeed017fe4eb5515d328d0c"
+ }
+}

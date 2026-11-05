@@ -1,0 +1,22 @@
+{
+ "case": "F3",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:42+00:00",
+ "seconds": 57.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s November 29, 2024 story highlighted election turnout, the shift to even-year elections, and voting patterns on Proposition K. It reported that about 412,000 people voted—38,000 fewer than in 2020 despite a similar number of registered voters—and that Proposition K passed citywide by 55–45, even though voters in districts nearer the Great Highway opposed it overwhelmingly.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\",\n \"published\": \"2024-11-29\",\n \"quotes\": [{\"text\": \"About 412,000 people voted in this year’s general election, 38,000 fewer than in 2020 — even though the total number of registered voters is about the same: 522,265 in this election compared to 521,099 in 2020.\", \"source_url\": \"https://www.sfelections.org/tools/election_data/index.php\"}, {\"text\": \"Voters in districts closer to the Great Highway voted overwhelmingly against the measure; that’s Districts 1, 4, 7 and 11.\", \"source_url\": null}, {\"text\": \"But it was a citywide measure, and passed 55-45, a 35,600-vote difference.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this article incorrectly cited a lower number of registered voters.\"}\n",
+ "usage": {
+  "input_tokens": 22886,
+  "output_tokens": 607,
+  "cache_read_tokens": 15360,
+  "reasoning_tokens": 0,
+  "total_tokens": 23493,
+  "api_calls": 6,
+  "session_id": "local-06e7885be126c6a27454e37eb7b7f22627be982812be7bf23bcc5bd978aee058"
+ }
+}

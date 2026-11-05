@@ -1,0 +1,22 @@
+{
+ "case": "B4",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:01:18+00:00",
+ "seconds": 25.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The story quoted five candidates about the Granada Hotel:\n\n- “One neighborhood and its residents cannot continue to bear the responsibility of these facilities, especially without proper planning and oversight by city departments.”\n- “As a former homeless-housing executive, I don’t think this integration and transition should have occurred.”\n- “SROs are not hospitals or treatment centers and must not be treated as warehouses for people in need.”\n- “Time and time again, nonprofits prove their inability to solve the problem, so it’s time we defund the nonprofits and require the city to, once again, do their job in providing a livable environment for residents.”\n- “I would work with all stakeholders to ensure zero-tolerance policies for drug use in common areas, that essential building and worker safety projects are fast-tracked, and that neighbors have their concerns addressed.”\n\nStory: https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\",\n \"published\": \"2024-06-06\",\n \"quotes\": [{\"text\": \"One neighborhood and its residents cannot continue to bear the responsibility of these facilities, especially without proper planning and oversight by city departments.\", \"source_url\": null}, {\"text\": \"As a former homeless-housing executive, I don’t think this integration and transition should have occurred.\", \"source_url\": null}, {\"text\": \"SROs are not hospitals or treatment centers and must not be treated as warehouses for people in need.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18495,
+  "output_tokens": 575,
+  "cache_read_tokens": 15488,
+  "reasoning_tokens": 0,
+  "total_tokens": 19070,
+  "api_calls": 5,
+  "session_id": "local-215335b08d6ecd0f6ed7cd15f830e0a4e44c02bd9a0b7dca8f355036653d8d90"
+ }
+}

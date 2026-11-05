@@ -1,0 +1,22 @@
+{
+ "case": "C5",
+ "set": "clarify",
+ "arm": "clarify_off",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:06:56+00:00",
+ "seconds": 34.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar sent DA Brooke Jenkins to a diversionary program after a two-and-a-half-year process. The story says the complaints were “best resolved” by requiring her to participate, and that the Bar dismissed the other complaints except for the one involving her access to and sharing of a confidential rap sheet.\n\nThe story: “DA Brooke Jenkins, in the ultimate irony, is placed in diversionary program,” published April 9, 2025.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": \"2025-04-09\",\n \"quotes\": [{\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\",\"source_url\": null}, {\"text\": \"Now, let’s note that the State Bar blew off every ethics complaint against Jenkins except for the one that she couldn’t explain away: improperly accessing the “rap sheet” for Troy McAlister, downloading it and then emailing it to a colleague who also had no business possessing it.\",\"source_url\": \"https://newspack-missionlocal.s3.amazonaws.com/mission/wp-content/uploads/2025/04/Hon-Martha-Goldin-Complaints-re-SFDA-Brooke-Jenkins.pdf\"}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 19236,
+  "output_tokens": 553,
+  "cache_read_tokens": 9728,
+  "reasoning_tokens": 0,
+  "total_tokens": 19789,
+  "api_calls": 5,
+  "session_id": "local-34036e2dee3e4ea661d0b635f2452e72d2e00bf63cd3c69bc8871847298f89ba"
+ }
+}

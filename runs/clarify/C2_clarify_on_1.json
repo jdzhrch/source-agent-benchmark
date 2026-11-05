@@ -1,0 +1,22 @@
+{
+ "case": "C2",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:04+00:00",
+ "seconds": 44.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA bought the derelict building at 18th and Mission for $6 million, with plans to add at least 40 affordable homes. The reported project would add six stories and renovate the existing structure while preserving its historic elements. The units were expected to be sold as below-market-rate condominiums to households earning 80–130% of area median income, with about half planned as two- or three-bedroom homes.\n\nThat story covers the 18th and Mission building; it doesn’t establish whether tenants at a different building will have to move.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2017/12/nonprofit-buys-decaying-building-at-18th-and-mission-streets/\",\n \"published\": \"2017-12-19\",\n \"quotes\": [{\"text\": \"A derelict building at 18th and Mission streets owned by a former Facebook executive that has been decaying for years has been acquired by the Mission Economic Development Agency for $6 million, with plans to add at least 40 affordable housing units to the property.\", \"source_url\": \"https://missionlocal.org/2017/04/historic-building-weathers-grocery-store-owner-and-former-facebook-ceo/\"}, {\"text\": \"The project is expected to cost around $45 million to add six stories to the existing two and to renovate the existing structure, all while preserving the building’s historical elements.\", \"source_url\": null}, {\"text\": \"The housing units, which are likely to number around 40, will be sold as condominiums through the city’s below-market-rate program to households making between 80 and 130 percent of the area median income.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 23387,
+  "output_tokens": 693,
+  "cache_read_tokens": 17792,
+  "reasoning_tokens": 0,
+  "total_tokens": 24080,
+  "api_calls": 6,
+  "session_id": "local-01d1b02b978997705199bc8274b80e0a77d34348350142b026cead32d52e72e4"
+ }
+}

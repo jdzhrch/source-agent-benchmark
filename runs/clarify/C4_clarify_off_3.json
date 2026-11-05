@@ -1,0 +1,22 @@
+{
+ "case": "C4",
+ "set": "clarify",
+ "arm": "clarify_off",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:07:28+00:00",
+ "seconds": 31.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Dolores Park allows reservations of parts of the park for a fee. In the 2016 story, the reported fee ranged from $33 for groups under 50 to $325 for groups larger than 400, plus a $200 security deposit and an application. The story describes reserving specific areas—not a general charge for simply using the park.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/dolores-park-follies-paid-lawn-reservations/\",\n \"published\": \"2016-05-24\",\n \"quotes\": [{\"text\": \"The San Francisco Recreation and Parks Department has begun to allow reservations of parts of Dolores Park — for a fee ranging from $33 for groups under 50 to $325 for those larger than 400.\", \"source_url\": \"http://sfrecpark.org/wp-content/uploads/Picnic-Impact-Fees-2016.pdf\"}, {\"text\": \"Interested groups must complete an application and pay a $200 security deposit.\", \"source_url\": \"http://fs18.formsite.com/sfrpsurvey2/doloresapplication/index.html\"}, {\"text\": \"Pon clarified that the permit system was in place before the years-long renovations at Dolores Park and was recently reinstated.\", \"source_url\": null}],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 19044,
+  "output_tokens": 501,
+  "cache_read_tokens": 9984,
+  "reasoning_tokens": 0,
+  "total_tokens": 19545,
+  "api_calls": 5,
+  "session_id": "local-23d066a05c4dd4b9a7852033777a405bd785367f87c39002a8adb9cd3110496d"
+ }
+}

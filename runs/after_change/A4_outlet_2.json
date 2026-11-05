@@ -1,0 +1,22 @@
+{
+ "case": "A4",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:01:02+00:00",
+ "seconds": 33.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s agent initially identified a May 30, 2024 story titled “MEDA to buy building near 16th St. BART for 100-percent affordable housing,” but its package address returned a 404 and could not be verified. A second package was verified and reports no matching published story. I can’t quote or give a story link without a verified story package.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 28978,
+  "output_tokens": 522,
+  "cache_read_tokens": 19328,
+  "reasoning_tokens": 0,
+  "total_tokens": 29500,
+  "api_calls": 7,
+  "session_id": "local-f1c3dc212be7ce5122fb1185a18bad63277952b3acba572da18d185902c72c23"
+ }
+}

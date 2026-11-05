@@ -1,0 +1,22 @@
+{
+ "case": "A5",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:00:47+00:00",
+ "seconds": 16.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s agent reported that it could not find a story about the weekly question or the candidates’ answers.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17950,
+  "output_tokens": 284,
+  "cache_read_tokens": 15744,
+  "reasoning_tokens": 0,
+  "total_tokens": 18234,
+  "api_calls": 5,
+  "session_id": "local-9f034dc1ed0870678287bb63e34c606e92fd5738fd41ef16c03d7ae4bcb8e94f"
+ }
+}

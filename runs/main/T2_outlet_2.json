@@ -1,0 +1,22 @@
+{
+ "case": "T2",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:23+00:00",
+ "seconds": 47.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a 16-year-old boy spent almost three weeks in San Francisco County Jail after allegedly giving law enforcement a false name and birthday. The city took 20 days to verify that he was a minor, and he was kept apart from other inmates in a section for people with special needs. The story also noted that California law bars people under 18 from being held in adult jails.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/09/16-year-old-boy-held-s-f-adult-jail-almost-3-weeks/\",\n \"published\": \"2025-09-04\",\n \"quotes\": [{\"text\": \"A 16-year-old was incarcerated in San Francisco County Jail for almost three weeks after he allegedly gave a false name and birthday to law enforcement.\", \"source_url\": null}, {\"text\": \"The city took 20 days to verify that the defendant is a minor, despite being alerted to the possibility almost immediately after the boy’s arrest.\", \"source_url\": null}, {\"text\": \"During the 20 days between his arrest and the judge’s decision, the defendant was kept separated from other inmates in a section of the jail at 425 Seventh St. for people with special needs, according to his father and emails reviewed by Mission Local.\", \"source_url\": \"https://media.api.sf.gov/documents/4._CCG_Briefing_2024_Revised_Power_Point_COD.pdf\"}],\n \"correction\": \"Correction: An earlier version of this story misstated the age of the defendant as 17. He is 16.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18743,
+  "output_tokens": 553,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 19296,
+  "api_calls": 5,
+  "session_id": "local-a6284581c404d649f3f98472fea350ac7cc83ed94cf9fc6fd4a57798db5faa7a"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "B2",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:38+00:00",
+ "seconds": 29.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that SFMTA Board vice chair Gwyneth Borden was censured by the Ethics Commission over illegal lobbying on behalf of Fiorella, a restaurant that paid her $12,500.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/04/sfmta-commissioner-gwyneth-borden-lobbying/\",\n \"published\": \"2023-04-18\",\n \"quotes\": [\n   {\"text\": \"Gwyneth Borden, the vice chair of the San Francisco Municipal Transportation Agency Board of Directors, and a member of two different city commissions over the course of 15 years, was censured last month by the Ethics Commission.\", \"source_url\": null},\n   {\"text\": \"A proposed stipulation lays out the case that she spent six months illegally lobbying city staff, planning commissioners, and a city supervisor on behalf of a restaurant that paid her $12,500.\", \"source_url\": \"https://sfethics.org/wp-content/uploads/2023/04/Agenda-Item-10-Gwyneth-Borden-Stipulation.pdf\"},\n   {\"text\": \"Starting in 2019 and into 2020, while she was a member of the SFMTA Board, Borden sent 32 emails to six Planning Department staffers, sent personalized emails to all seven members of the Planning Commission, and sent another email to Supervisor Dean Preston, hoping they would support the legalization of an outdoor deck for the Sunset District Italian eatery Fiorella, according to the Ethics Commission.\", \"source_url\": null}\n ],\n \"correction\": \"Correction: A previous version of this story stated that Fiorella had a non-compliant deck prior to 2019; the deck belonged to Park Chow, the restaurant that previously occupied the same address.\"}\n```\n",
+ "usage": {
+  "input_tokens": 18398,
+  "output_tokens": 599,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 18997,
+  "api_calls": 5,
+  "session_id": "local-07a04cd516ccef0873eacb460f935110c7344d5808f90dc5aef58d3f102a0b61"
+ }
+}

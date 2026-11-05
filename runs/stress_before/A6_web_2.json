@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:48+00:00",
+ "seconds": 13.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar sent San Francisco District Attorney Brooke Jenkins to an ethics diversion program over her access to and sharing of a confidential rap sheet for a case she wasn’t handling. The State Bar’s action followed ethics complaints; Mission Local reported that the rap sheet belonged to Troy McAlister and that Jenkins emailed it to a colleague who also had no connection to the case. The April 2025 column also criticized the diversion decision and described Jenkins’ explanation as a tacit admission of breaking the law.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"In November 2022, Mission Local revealed that, in her final week on the job as an assistant district attorney, Brooke Jenkins accessed the confidential “rap sheet” for a case to which she had no connection, and emailed it to a colleague who also had no connection to the case.\", \"source_url\": \"https://missionlocal.org/2022/11/brooke-jenkins-don-dubain-troy-mcallister-police-report-rap-sheet-recall-chesa-boudin/\"}, {\"text\": \"The wording used in the State Bar’s March 25 letter was that the ethics complaints against Jenkins would be “best resolved” by “requiring” Jenkins to participate in the diversion program.\", \"source_url\": null}, {\"text\": \"So, it is very hard not to read Jenkins’ explanation, as recounted in the State Bar letter, as being a tacit admission of breaking the law.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 19041,
+  "output_tokens": 467,
+  "cache_read_tokens": 6272,
+  "reasoning_tokens": 0,
+  "total_tokens": 19508,
+  "api_calls": 3,
+  "session_id": "local-fdf078a640d6e4c84154b4de40d613df0118998aa621b0c64088ac1e070314fa"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:22+00:00",
+ "seconds": 20.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published a District 5 candidate Q&A titled “Meet the District 5 candidates: Where does power lie in SF?” It asked candidates about San Francisco’s division of power, including the mayor’s role, the Board of Supervisors and civilian commissions. The story presents the candidates’ answers; for example, incumbent Dean Preston argued the mayor already has substantial power.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 35787,
+  "output_tokens": 439,
+  "cache_read_tokens": 29056,
+  "reasoning_tokens": 0,
+  "total_tokens": 36226,
+  "api_calls": 7,
+  "session_id": "local-c68550009b4ce17c82c449febab930e7ff59e06abd22eedc758517020a4bd088"
+ }
+}

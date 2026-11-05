@@ -1,0 +1,22 @@
+{
+ "case": "F3",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:26+00:00",
+ "seconds": 53.1,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s four data takeaways were: turnout was lower than in 2020 despite a similar number of registered voters; Proposition H moved some races to even-year elections, when turnout is higher; voters in districts near the Great Highway strongly opposed Proposition K, though it passed citywide 55–45; and campaign fundraising did not prevent a measure’s rejection by 13 percent. In new precincts, 52 percent of first-choice votes went to Philhour.\n\nStory: https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/11/sf-november-election-data-takeaways-redistrcting-money-campaign-finance-voter-turnout/\",\n \"published\": \"2024-11-29\",\n \"quotes\": [\n   {\"text\": \"About 412,000 people voted in this year’s general election, 38,000 fewer than in 2020 — even though the total number of registered voters is about the same: 522,265 in this election compared to 521,099 in 2020.\", \"source_url\": \"https://www.sfelections.org/tools/election_data/index.php\"},\n   {\"text\": \"But it was a citywide measure, and passed 55-45, a 35,600-vote difference.\", \"source_url\": null},\n   {\"text\": \"They did: In new precincts, 52 percent of first-choice votes went to Philhour.\", \"source_url\": null}\n ],\n \"correction\": \"A previous version of this article incorrectly cited a lower number of registered voters.\"\n}\n```\n",
+ "usage": {
+  "input_tokens": 18322,
+  "output_tokens": 584,
+  "cache_read_tokens": 9216,
+  "reasoning_tokens": 0,
+  "total_tokens": 18906,
+  "api_calls": 5,
+  "session_id": "local-bab99fad7797e4baf4c3887e055a0a14b9c415b9a070cc4865bfe5d87bb9d6af"
+ }
+}

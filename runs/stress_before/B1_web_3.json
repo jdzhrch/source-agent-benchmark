@@ -1,0 +1,22 @@
+{
+ "case": "B1",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:55:00+00:00",
+ "seconds": 14.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that an after-school worker at Everett Middle School was arrested after the school received a report of inappropriate contact between an adult affiliated with the school and a student. The program was run by Mission Graduates. At the time of the initial report, police and the district were investigating, and it was unclear whether the suspect was being held in custody. A later report identified him as 20-year-old Jeremy Reyes and said he was accused of rape and sexual intercourse with a minor, booked on eight charges and held without bond.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"The administration at Everett Middle School received a report of inappropriate contact between an adult affiliated with the school community and a student yesterday, and immediately contacted the police department, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"SFPD officers responded to the school at around 12:45 p.m. on Tuesday and arrested an adult male.\", \"source_url\": null}, {\"text\": \"It is unclear if the suspect is being held in custody.\", \"source_url\": null}],\n \"correction\": \"A previous version of this story cited parents saying that they had not received any communication immediately following the incident. The story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.\"}\n```\n",
+ "usage": {
+  "input_tokens": 11855,
+  "output_tokens": 425,
+  "cache_read_tokens": 8192,
+  "reasoning_tokens": 0,
+  "total_tokens": 12280,
+  "api_calls": 3,
+  "session_id": "local-dd32fcc2a9ca9bf4bd01a42985ab37becbc06258c968a6d2c9f8ab4aca49ef7e"
+ }
+}

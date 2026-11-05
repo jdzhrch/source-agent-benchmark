@@ -1,0 +1,22 @@
+{
+ "case": "F4",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:49+00:00",
+ "seconds": 26.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that MEDA was purchasing a four-story building at 2901 16th St., two blocks east of the 16th Street BART station, to convert it into 62 units of permanent affordable housing. The planned units include two single-room occupancy units, 54 studios and six one-bedroom units. The purchase depended on city approval of a project loan.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing/\",\n \"published\": \"2024-05-30\",\n \"quotes\": [{\"text\": \"The Mission Economic Development Agency, a nonprofit housing developer, is in the process of purchasing a four-story building at 2901 16th St. at the corner of South Van Ness Avenue to convert it into 62 units of permanent affordable housing.\", \"source_url\": null}, {\"text\": \"Two blocks east of the 16th St. BART station, the 1914 brick building will go through rehabilitation by MEDA, and its tenants will have the option to remain in their units or move out during that period.\", \"source_url\": null}, {\"text\": \"The 62 units will occupy the second, third and fourth floors, above the hair salons and restaurants on the ground floor, and will include two single-room occupancy units with their own bathrooms and kitchenettes, 54 studios, and six one-bedroom units for families of two or three.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18208,
+  "output_tokens": 554,
+  "cache_read_tokens": 16128,
+  "reasoning_tokens": 0,
+  "total_tokens": 18762,
+  "api_calls": 5,
+  "session_id": "local-f73be93a005320e72b74e7b271b7432e3b0b33e5f94c225927d1d2ae61fe2631"
+ }
+}

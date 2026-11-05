@@ -1,0 +1,22 @@
+{
+ "case": "C1",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:05:16+00:00",
+ "seconds": 45.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported in September 2023 that SF State planned staffing cuts that would hit lecturers especially hard. The California Faculty Association said lecturers were told their classes could be reduced or eliminated in spring; the scale would vary by department. The story also reported that the cuts could equal 125 full-time positions, while lecturers—many of them part-time—could be affected in larger numbers.\n\nStory: https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\", \"source_url\": \"https://www.calfac.org/\"}, {\"text\": \"But an August presentation by the school’s budget committee said cuts could be equivalent to 125 full-time positions.\", \"source_url\": \"https://adminfin.sfsu.edu/sites/default/files/documents/UBC%20Presentation%20August%202023%20complete%20slideshow%20v2.1.pdf\"}, {\"text\": \"Some are losing a class or two, while others will lose their entire workloads, depending on the department.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"\n}\n```\n",
+ "usage": {
+  "input_tokens": 27710,
+  "output_tokens": 676,
+  "cache_read_tokens": 14592,
+  "reasoning_tokens": 0,
+  "total_tokens": 28386,
+  "api_calls": 7,
+  "session_id": "local-f716c84d715ed56bcd343067778538db6810ec1bb48d8abf99845dd9b8e48de3"
+ }
+}

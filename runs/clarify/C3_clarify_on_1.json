@@ -1,0 +1,22 @@
+{
+ "case": "C3",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:04+00:00",
+ "seconds": 44.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported on May 25, 2025, that Alemany Farm was at risk of shutting down after one-time city funding ran out. The farm was facing a projected budget gap of $100,000 to $150,000, and had paused paid apprenticeship programs and reduced staff hours while fundraising.\n\nThe story also reported that Rec and Parks lets the farm use its land rent-free and provides services such as compost and water. In April, the Human Services Agency approved a $186,963 grant extension through June 2026.\n\nCorrection: An earlier version attributed the projected budget gap to the San Francisco Human Services Agency; the estimate came from Alemany Farm.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/05/sf-largest-urban-farm-alemany-risks-shutting-down/\",\n \"published\": \"2025-05-25\",\n \"quotes\": [{\"text\": \"The urban farm, structured as a fiscally sponsored nonprofit, is facing a $100,000 to $150,000 gap in this year’s budget after one-time city funding ran out, according to farm organizers.\", \"source_url\": null}, {\"text\": \"Rec and Parks owns the land, and lets Alemany use it rent-free, while also providing services like compost and water.\", \"source_url\": null}, {\"text\": \"In April, HSA approved a $186,963 grant extension through June 2026.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story attributed the farm’s projected budget gap to the San Francisco Human Services Agency. The estimate came from Alemany Farm.\"\n}\n",
+ "usage": {
+  "input_tokens": 23330,
+  "output_tokens": 634,
+  "cache_read_tokens": 10624,
+  "reasoning_tokens": 0,
+  "total_tokens": 23964,
+  "api_calls": 6,
+  "session_id": "local-52ca1ce3408e4922393bf5c6d8d801ef32f2294f0099f9916047d9d793a2df42"
+ }
+}

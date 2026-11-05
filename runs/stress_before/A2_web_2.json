@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:06+00:00",
+ "seconds": 16.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local reported that the upzoning plan would let developers build taller and denser buildings in the city’s west and north, while the amendment exempted rent-controlled buildings with three or more units. Two-unit buildings remained included, and tenant advocates warned that tenants there were still vulnerable.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning\",\n \"published\": \"2025-10-16\",\n \"quotes\": [\n   {\"text\": \"If accepted by the Board of Supervisors and approved by the state, that plan will allow developers to build taller, denser buildings in the western and northern parts of the city, so long as at least one additional unit of housing is being added to the lot.\", \"source_url\": null},\n   {\"text\": \"Two-unit buildings are not covered by the amendment, and there are some 20,700 of them still included in the upzon\", \"source_url\": null}\n ],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 23511,
+  "output_tokens": 375,
+  "cache_read_tokens": 16896,
+  "reasoning_tokens": 0,
+  "total_tokens": 23886,
+  "api_calls": 4,
+  "session_id": "local-3ea04879862f41f4f39f62c777e9b2d3ccc7d6cda3a1d6a468e442d383669b5a"
+ }
+}

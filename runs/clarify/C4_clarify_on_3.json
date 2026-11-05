@@ -1,0 +1,22 @@
+{
+ "case": "C4",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:05:20+00:00",
+ "seconds": 34.5,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a paid lawn-rental pilot at Dolores Park was ended in May 2016, with reservations limited to picnic tables. The story also noted that permit fees help offset park cleanup costs.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2016/05/rec-park-to-disband-paid-lawn-reservation-system/\",\n \"published\": \"2016-05-24\",\n \"quotes\": [{\"text\": \"“To address this concern, I worked with Rec & Park to change its reservation policy by limiting reservations to picnic tables.”\", \"source_url\": null}, {\"text\": \"Both Kahn and Wiener emphasized that a reservation system has existed for a long time in the parks, that permit fees help offset the cost of cleaning up trash ($750,000 in Dolores Park alone last year), and that even lawn reservations already exist in many other city parks.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 27330,
+  "output_tokens": 551,
+  "cache_read_tokens": 18304,
+  "reasoning_tokens": 0,
+  "total_tokens": 27881,
+  "api_calls": 7,
+  "session_id": "local-e637928364132a9164128d0ea5b361655fe23f1a3bb7219ccadffd1c1eea50e7"
+ }
+}

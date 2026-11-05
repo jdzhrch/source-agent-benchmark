@@ -1,0 +1,22 @@
+{
+ "case": "A2",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:24+00:00",
+ "seconds": 38.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Yes. Mission Local covered this in “S.F. upzoning plan heads to the Board of Supervisors. Here's what to know.” The story says the plan allowed taller, denser buildings in northern and western neighborhoods, and that Supervisor Myrna Melgar proposed removing rent-controlled buildings with three or more units from it.\n\n```json\n{\"found\":true,\n \"story_url\":\"https://missionlocal.org/2025/10/sf-upzoning-amendments-committee-meeting/\",\n \"published\":\"2025-10-19\",\n \"quotes\":[{\"text\":\"As it stands, the plan allows housing developers to build taller, denser buildings in the city’s northern and western neighborhoods.\",\"source_url\":null},{\"text\":\"On Monday, District 7 Supervisor Myrna Melgar, who chairs the committee, will formally introduce her amendment to remove rent-controlled buildings with three or more units from the plan.\",\"source_url\":\"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning\"}],\n \"correction\":null}\n```\n",
+ "usage": {
+  "input_tokens": 22390,
+  "output_tokens": 540,
+  "cache_read_tokens": 17024,
+  "reasoning_tokens": 0,
+  "total_tokens": 22930,
+  "api_calls": 6,
+  "session_id": "local-ae70bc7301e59c0b81b5e40445334d2969078942e725680cc2835979ca712cb0"
+ }
+}

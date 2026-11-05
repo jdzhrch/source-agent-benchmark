@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:18+00:00",
+ "seconds": 13.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that San Francisco State notified lecturers in September 2023 that their spring classes could be reduced or eliminated. The university’s budget presentation described cuts equivalent to 125 full-time positions; the faculty union said that, because most lecturers work part-time, about 300 could lose all their classes and another 600 could lose some. The story said lecturers faced the largest cuts, about a 30 percent decrease for most colleges, amid declining enrollment and a projected $9 million deficit. It also reported that lecturers and the union warned of canceled classes, lost workloads and broader effects on campus.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\",\"source_url\":\"https://www.calfac.org/\"},{\"text\":\"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\",\"source_url\":\"https://marcomm.sfsu.edu/sf-state-facts\"},{\"text\":\"The impending cuts, according to Tully and Erickson, will affect all campus life: Classes will be canceled, and professors will scramble to take over workloads from lecturers who are cut, they said.\",\"source_url\":null}],\n \"correction\": \"A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n```\n",
+ "usage": {
+  "input_tokens": 19870,
+  "output_tokens": 516,
+  "cache_read_tokens": 11264,
+  "reasoning_tokens": 0,
+  "total_tokens": 20386,
+  "api_calls": 3,
+  "session_id": "local-48c63e7f2a9813975614654cdcd27402a0397f946f46ee05a7b00362206ffc7f"
+ }
+}

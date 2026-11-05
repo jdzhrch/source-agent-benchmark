@@ -1,0 +1,22 @@
+{
+ "case": "B3",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:21+00:00",
+ "seconds": 13.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "At the District 9 debate, candidates discussed how to allow permitted sidewalk vending while addressing unpermitted selling, including sales of stolen goods. Jaime Gutierrez and Julian Bermudez proposed a vendor-inclusive committee or commission; Bermudez emphasized self-policing and giving vendors more power. Roberto Hernandez called for residents, merchants, vendors, cultural groups and city departments to develop a plan. Stephen Torres and H. Brown supported designated vending spaces.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/district-9-contenders-talk-mission-street-vending-in-forum\",\n \"published\": \"2024-06-05\",\n \"quotes\": [{\"text\": \"One of the questions from the Mission Street Vendor Association touched on the city’s inability to regulate street vending in a way that allows for permitted vending, but still keeps the plazas and streets from being overrun with unpermitted vendors, many selling stolen items.\", \"source_url\": null}, {\"text\": \"Gutierrez and Bermudez both suggested a committee or commission that included vendors, with Bermudez focusing on self-policing and giving more power to those who sell.\", \"source_url\": null}, {\"text\": \"Hernandez called for having all residents, merchants, vendors, cultural associations and city departments come together to devise a plan.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17423,
+  "output_tokens": 404,
+  "cache_read_tokens": 12800,
+  "reasoning_tokens": 0,
+  "total_tokens": 17827,
+  "api_calls": 4,
+  "session_id": "local-b9d7a36c414fd431827fde46ece0578aa5ae6c7498281936192439b2a23945ba"
+ }
+}

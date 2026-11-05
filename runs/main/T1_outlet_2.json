@@ -1,0 +1,22 @@
+{
+ "case": "T1",
+ "set": "tuning",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:53+00:00",
+ "seconds": 26.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that lecturers were facing the largest cuts at San Francisco State University. Department chairs told lecturers their classes would be reduced or eliminated starting in spring. The article said cuts would affect an unknown number of the university’s 1,084 lecturers, and that lecturers made up about 60 percent of the faculty.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"With apologies, department chairs informed lecturers that, come spring, they would see their classes cut back, sometimes entirely, according to the California Faculty Association, which represents some 29,000 professors and other staff across California State University campuses.\",\"source_url\":\"https://www.calfac.org/\"},{\"text\":\"The cuts will affect an unknown number of the 1,084 lecturers across the university.\",\"source_url\":\"https://marcomm.sfsu.edu/sf-state-facts\"},{\"text\":\"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\",\"source_url\":\"https://marcomm.sfsu.edu/sf-state-facts\"}],\n \"correction\": \"Correction: A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n```\n",
+ "usage": {
+  "input_tokens": 19084,
+  "output_tokens": 544,
+  "cache_read_tokens": 13440,
+  "reasoning_tokens": 0,
+  "total_tokens": 19628,
+  "api_calls": 5,
+  "session_id": "local-25790904a4e03219b9c068d14b527162ad6036499b8534ee794a72420802a554"
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "case": "B1",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:03:03+00:00",
+ "seconds": 34.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that a male after-school worker at Everett Middle School was arrested by San Francisco police over alleged inappropriate contact with a student. The district said the school reported the contact and immediately contacted police; the principal then contacted parents and others at Everett. The story did not establish whether the man was an employee or volunteer of Mission Graduates.\n\nStory: https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/03/everett-afterschool-teacher-arrested-inappropriate-relationship-student/\",\n \"published\": \"2024-03-07\",\n \"quotes\": [{\"text\": \"A male after-school worker at Everett Middle School was arrested yesterday by San Francisco police for an allegedly inappropriate contact with a student, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"The administration at Everett Middle School received a report of inappropriate contact between an adult affiliated with the school community and a student yesterday, and immediately contacted the police department, according to the San Francisco Unified School District.\", \"source_url\": null}, {\"text\": \"SFPD officers responded to the school at around 12:45 p.m. on Tuesday and arrested an adult male.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story cited parents saying that they had not received any communication immediately following the incident. The story has been updated to reflect that the principal did, in fact, send out an email soon after the incident occurred.\"}\n",
+ "usage": {
+  "input_tokens": 18767,
+  "output_tokens": 560,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 19327,
+  "api_calls": 5,
+  "session_id": "local-d24fb729295248c82a82308b4da16283e82ec2296843977759df60320e78ecb5"
+ }
+}

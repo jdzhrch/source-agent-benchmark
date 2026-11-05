@@ -1,0 +1,22 @@
+{
+ "case": "A6",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:53+00:00",
+ "seconds": 15.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the State Bar sent District Attorney Brooke Jenkins to an ethics diversionary program over her accessing, downloading and emailing a confidential rap sheet for a case she wasn’t involved in. The story said the Bar acted after a two-and-a-half-year process and focused on that incident, while dismissing the other ethics complaints. The column argued that Jenkins’s conduct appeared to violate the law.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/04/brooke-jenkins-diversion-state-bar/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"In November 2022, *Mission Local* revealed that, in her final week on the job as an assistant district attorney, Brooke Jenkins accessed the confidential “rap sheet” for a case to which she had no connection, and emailed it to a colleague who also had no connection to the case.\", \"source_url\": \"https://missionlocal.org/2022/11/brooke-jenkins-don-dubain-troy-mcallister-police-report-rap-sheet-recall-chesa-boudin/\"}, {\"text\": \"Yesterday, Michael Barba at the *Chronicle* reported that the State Bar, after a two-and-a-half year process, has taken the unusual, if not unprecedented, step of sending a sitting prosecutor into a diversionary program following a passel of ethics complaints leveled against the recall figurehead turned DA.\", \"source_url\": \"https://www.sfchronicle.com/sf/article/brooke-jenkins-diversion-ethics-20259223.php\"}, {\"text\": \"So, it is very hard not to read Jenkins’ explanation, as recounted in the State Bar letter, as being a tacit admission of breaking the law.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 19431,
+  "output_tokens": 490,
+  "cache_read_tokens": 10496,
+  "reasoning_tokens": 0,
+  "total_tokens": 19921,
+  "api_calls": 4,
+  "session_id": "local-6f19c0a1d97478499e3e284b0ea6f5f5ef083636a926e1af1a5d7a0822dd1c52"
+ }
+}

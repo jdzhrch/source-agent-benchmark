@@ -1,0 +1,22 @@
+{
+ "case": "T4",
+ "set": "tuning",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:04+00:00",
+ "seconds": 11.0,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published a July 4, 2011 headline saying Tesla would begin making cars in the old NUMMI plant in March. The story does not describe a factory opening in the Mission District; it refers to the former NUMMI plant. The page’s available text contains no story body or correction.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2011/07/tesla-motors-will-begin-making-cars-in-old-nummi-plant-in-march/\",\n \"published\": \"2011-07-04\",\n \"quotes\": [{\"text\": \"Tesla Motors Will Begin Making Cars in Old Nummi Plant in March\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 14694,
+  "output_tokens": 295,
+  "cache_read_tokens": 9984,
+  "reasoning_tokens": 0,
+  "total_tokens": 14989,
+  "api_calls": 3,
+  "session_id": "local-14b2cef92f90f0e4b46aaec72696fc7e6d9d582d8c0ca09c8d79830535e058b4"
+ }
+}

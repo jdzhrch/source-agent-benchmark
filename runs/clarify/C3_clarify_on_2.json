@@ -1,0 +1,22 @@
+{
+ "case": "C3",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:30+00:00",
+ "seconds": 26.4,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that Alemany Farm faced a $100,000–$150,000 budget gap after one-time city funding ran out. The farm paused paid apprenticeship programs, reduced staff hours and sought to raise $200,000. The story also noted that about half of the farm’s funding the prior year came from city sources, and that the Human Services Agency approved a grant extension through June 2026.\n\nThe story carries a correction: the projected budget-gap estimate came from Alemany Farm, not the San Francisco Human Services Agency.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2025/05/sf-largest-urban-farm-alemany-risks-shutting-down/\",\n \"published\": \"2025-05-25\",\n \"quotes\": [{\"text\": \"The urban farm, structured as a fiscally sponsored nonprofit, is facing a $100,000 to $150,000 gap in this year’s budget after one-time city funding ran out, according to farm organizers.\", \"source_url\": null}, {\"text\": \"Last year, about half of the farm's total funding came from city sources, according to farm organizers.\", \"source_url\": null}, {\"text\": \"In April, HSA approved a $186,963 grant extension through June 2026.\", \"source_url\": null}],\n \"correction\": \"Correction: A previous version of this story attributed the farm’s projected budget gap to the San Francisco Human Services Agency. The estimate came from Alemany Farm.\"}\n",
+ "usage": {
+  "input_tokens": 19052,
+  "output_tokens": 528,
+  "cache_read_tokens": 10496,
+  "reasoning_tokens": 0,
+  "total_tokens": 19580,
+  "api_calls": 5,
+  "session_id": "local-92f4f3c6cf04a607b70b8485055ff0c3a62cdc6c6ff8c93f684e7ec18f672523"
+ }
+}

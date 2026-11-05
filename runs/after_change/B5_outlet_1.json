@@ -1,0 +1,22 @@
+{
+ "case": "B5",
+ "set": "stress_b",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:43+00:00",
+ "seconds": 26.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "The verified package identifies an October 18, 2024 story about Dolores Huerta endorsing Aaron Peskin, but its five supplied sentences do not describe Peskin campaigning in a neighborhood concerned about taller buildings. I can’t substantiate what Mission Local reported about that from this package.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/10/see-how-they-run-dolores-huerta-also-endorses-aaron-peskin/\",\n \"published\": \"2024-10-18\",\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 18724,
+  "output_tokens": 349,
+  "cache_read_tokens": 15488,
+  "reasoning_tokens": 0,
+  "total_tokens": 19073,
+  "api_calls": 5,
+  "session_id": "local-0b5726b668ef3c1d5b2cae163a7b4c72b1b5b8f4465c3ddc12328eea4a50a198"
+ }
+}

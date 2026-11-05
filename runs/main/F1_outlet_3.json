@@ -1,0 +1,22 @@
+{
+ "case": "F1",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:53:00+00:00",
+ "seconds": 25.6,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that three friends arrived at the GameStop on Mission Street at 6 a.m. to buy “The Legend of Zelda: Tears of the Kingdom.” Over the next three hours, about 10 other gamers lined up behind them. The friends were hoping to get the limited collector’s edition; they secured the first three places to buy it, and Carrillo was first to purchase the game at 10 a.m.\n\nStory: “People We Meet: In line for Zelda at GameStop,” published May 13, 2023.\n\nCorrection: An earlier version said this was the last GameStop in San Francisco. Mission Local corrected that there is another GameStop in Stonestown Galleria.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/05/zelda-gamestop/\",\n \"published\": \"2023-05-13\",\n \"quotes\": [{\"text\": \"The three young men arrived at the GameStop on Mission Street at 6 a.m., when the streets were still empty and all the shops were shut, to buy copies of \\\"Legend of Zelda: Tears of the Kingdom.\\\"\",\"source_url\": null}, {\"text\": \"For the next three hours, a line of some 10 fellow gamers slowly formed behind the three early birds, all hoping to buy a physical copy of the “Legend of Zelda: Breath of the Wild” sequel.\",\"source_url\": null}, {\"text\": \"Their plan worked: They arrived earlier than anyone else, and got the first three slots to buy a collector’s edition — a $129.99 purchase, compared to $69.99 for the standard edition.\",\"source_url\": null}],\n \"correction\": \"Correction: An earlier version of the article stated this GameStop is the last in San Francisco. That was an error. There is one more GameStop in Stonestown Galleria.\"\n}\n",
+ "usage": {
+  "input_tokens": 18610,
+  "output_tokens": 607,
+  "cache_read_tokens": 15488,
+  "reasoning_tokens": 0,
+  "total_tokens": 19217,
+  "api_calls": 5,
+  "session_id": "local-338f3dfec7565a20c45542e37f49dad2ee2c812f3369e52a67fdcc8564f43784"
+ }
+}

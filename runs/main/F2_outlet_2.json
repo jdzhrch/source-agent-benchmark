@@ -1,0 +1,22 @@
+{
+ "case": "F2",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:32+00:00",
+ "seconds": 24.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the mayor’s upzoning plan would no longer apply to buildings with three or more rent-controlled apartments. The amendment was accepted by Mayor Daniel Lurie and, according to Mission Local’s analysis, exempted at least 84,000 rental units in 11,700 buildings, along with any ground-floor retail beneath them. Two-unit buildings were not covered and remained in the plan.\n\n{\n  \"found\": true,\n  \"story_url\": \"https://missionlocal.org/2025/10/rent-control-exempted-sf-upzoning/\",\n  \"published\": \"2025-10-16\",\n  \"quotes\": [\n    {\n      \"text\": \"The mayor’s plan to upzone swaths of San Francisco will no longer apply to buildings with three or more rent-controlled apartments.\",\n      \"source_url\": null\n    },\n    {\n      \"text\": \"The amendment exempts at least 84,000 rental units in 11,700 buildings from the upzoning plan, and any ground-floor retail that might be under them, according to analysis by Mission Local.\",\n      \"source_url\": null\n    },\n    {\n      \"text\": \"Two-unit buildings are not covered by the amendment, and there are some 20,700 of them still included in the upzoning plan.\",\n      \"source_url\": null\n    }\n  ],\n  \"correction\": \"A previous version of this article stated the number of remaining two unit rent-controlled units subject to height increases was 16. It is 32.\"\n}\n",
+ "usage": {
+  "input_tokens": 18383,
+  "output_tokens": 543,
+  "cache_read_tokens": 13312,
+  "reasoning_tokens": 0,
+  "total_tokens": 18926,
+  "api_calls": 5,
+  "session_id": "local-94cf7cb6c86b091a6885fd22970c4d5600f8cf996801c8cc3c665eb5a7a67086"
+ }
+}

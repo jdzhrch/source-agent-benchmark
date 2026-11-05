@@ -1,0 +1,22 @@
+{
+ "case": "A4",
+ "set": "stress_a",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:33+00:00",
+ "seconds": 17.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that the Mission Economic Development Agency (MEDA) was in the process of buying a four-story, 1914 brick building at 2901 16th St., two blocks east of the 16th Street BART station, to convert it into 62 units of permanent affordable housing. The units would include 54 studios, six one-bedroom apartments and two single-room-occupancy units. Existing tenants could stay or move out during rehabilitation, and the ground-floor businesses were expected to remain.\n\nThe story said the project’s planned average area median income was 80%—then equivalent to $83,900 for one person or $107,900 for a family of three. The sale depended on city approval of a Small Sites Program loan.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meda-to-buy-a-building-near-16th-st-bart-for-100-percent-affordable-housing/\",\n \"published\": \"2024-05-30\",\n \"quotes\": [{\"text\": \"The Mission Economic Development Agency, a nonprofit housing developer, is in the process of purchasing a four-story building at 2901 16th St. at the corner of South Van Ness Avenue to convert it into 62 units of permanent affordable housing.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 20018,
+  "output_tokens": 419,
+  "cache_read_tokens": 14848,
+  "reasoning_tokens": 0,
+  "total_tokens": 20437,
+  "api_calls": 4,
+  "session_id": "local-746011b45af4d937af5a9814aeda0d462be9c51e9317aa261c47b5426069d15e"
+ }
+}

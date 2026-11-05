@@ -1,0 +1,22 @@
+{
+ "case": "F7",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:52:08+00:00",
+ "seconds": 19.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s archive has no published story reporting that the city turned Dolores Park into a paid parking lot. Its agent noted that a May 2016 story concerned paid lawn reservations, not parking.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17584,
+  "output_tokens": 291,
+  "cache_read_tokens": 16000,
+  "reasoning_tokens": 0,
+  "total_tokens": 17875,
+  "api_calls": 5,
+  "session_id": "local-4e20f6deaf5cbbbe1c02b40a2d447fee914cd6e639324d3064fb379dedf59776"
+ }
+}

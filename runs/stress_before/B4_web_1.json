@@ -1,0 +1,22 @@
+{
+ "case": "B4",
+ "set": "stress_b",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:36+00:00",
+ "seconds": 14.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local asked the District 3 supervisor candidates about the Granada Hotel, a former senior SRO that the city acquired for supportive housing. Their responses differed, but several criticized the rushed conversion and its effects on existing tenants. Sharon Lai said the integration of formerly homeless residents with legacy tenants was unacceptable and called for better assessment, safety resources and relocation options. Danny Sauter cited building neglect and safety problems and called for stronger oversight. Moe Jamil said Lower Nob Hill had been disproportionately burdened with shelters and supportive housing.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/06/meet-the-district-3-candidates-granada-hotel/\",\n \"published\": null,\n \"quotes\": [{\"text\": \"The impacts to the existing tenants were unacceptable.\", \"source_url\": null}, {\"text\": \"The Granada Hotel and its years of well-documented building neglect, rash of public safety challenges, and difficult working conditions are alarming, and are indicative of larger challenges around supportive housing in San Francisco.\", \"source_url\": null}, {\"text\": \"One neighborhood and its residents cannot continue to bear the responsibility of these facilities, especially without proper planning and oversight by city departments.\", \"source_url\": null}],\n \"correction\": null\n}\n",
+ "usage": {
+  "input_tokens": 26597,
+  "output_tokens": 442,
+  "cache_read_tokens": 16384,
+  "reasoning_tokens": 0,
+  "total_tokens": 27039,
+  "api_calls": 4,
+  "session_id": "local-8cc58775b256f8513d54332244e3527b2093489eed40e157723e3f6e2a6bc9b9"
+ }
+}

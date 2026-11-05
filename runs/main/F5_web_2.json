@@ -1,0 +1,22 @@
+{
+ "case": "F5",
+ "set": "main",
+ "arm": "web",
+ "rep": 2,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:51:49+00:00",
+ "seconds": 16.9,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local published a “Meet the District 5 candidates” installment about the division of power in San Francisco and a TogetherSF proposal to reduce or change the role of city commissions. The candidates disagreed about the proposal. The story is dated May 28, 2024.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2024/05/meet-district-5-candidates-week17-mayor-power/\",\n \"published\": \"2024-05-28\",\n \"quotes\": [{\"text\": \"This week, we asked candidates to discuss the division of power in San Francisco, and where power truly lies in the city.\", \"source_url\": null},\n {\"text\": \"We asked the candidates what they think of the proposal. Unsurprisingly, they don’t agree.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 28086,
+  "output_tokens": 357,
+  "cache_read_tokens": 22272,
+  "reasoning_tokens": 0,
+  "total_tokens": 28443,
+  "api_calls": 5,
+  "session_id": "local-ed168ff8f5486670596b78a9622b93e58863e4aa68bbfd5174c5c0f76069ccd1"
+ }
+}

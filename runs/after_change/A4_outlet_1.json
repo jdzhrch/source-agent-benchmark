@@ -1,0 +1,22 @@
+{
+ "case": "A4",
+ "set": "stress_a",
+ "arm": "outlet",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:59:09+00:00",
+ "seconds": 18.7,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s agent reported that it found no published story matching that description.\n\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n",
+ "usage": {
+  "input_tokens": 17976,
+  "output_tokens": 270,
+  "cache_read_tokens": 12800,
+  "reasoning_tokens": 0,
+  "total_tokens": 18246,
+  "api_calls": 5,
+  "session_id": "local-7b49e41d9a85b876dd6d41df6749f8158f803b74d063f30b8407fdb883cc66b3"
+ }
+}

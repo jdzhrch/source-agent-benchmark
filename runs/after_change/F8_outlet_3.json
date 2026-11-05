@@ -1,0 +1,22 @@
+{
+ "case": "F8",
+ "set": "main",
+ "arm": "outlet",
+ "rep": 3,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T00:02:23+00:00",
+ "seconds": 20.2,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local’s verified archive search found no published story containing that quotation.\n\n```json\n{\"found\": false,\n \"story_url\": null,\n \"published\": null,\n \"quotes\": [],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 17568,
+  "output_tokens": 279,
+  "cache_read_tokens": 15616,
+  "reasoning_tokens": 0,
+  "total_tokens": 17847,
+  "api_calls": 5,
+  "session_id": "local-5977f471e59279ab920593772dd7ada0baa9d9071297147728ce9e524f815029"
+ }
+}

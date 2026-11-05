@@ -1,0 +1,22 @@
+{
+ "case": "C1",
+ "set": "clarify",
+ "arm": "clarify_on",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-05T01:04:07+00:00",
+ "seconds": 47.8,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported that SF State planned substantial staffing cuts amid an enrollment shortfall and a projected budget deficit. The September 2023 story said lecturers faced the largest cuts, while the number of lecturers affected was unknown.\n\n“The cuts will affect an unknown number of the 1,084 lecturers across the university.”\n\n“But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.”\n\nThe story also said the cuts could be equivalent to 125 full-time positions, and outlined cuts of 23 full-time-equivalent tenure-track faculty positions and six full-time-equivalent staff positions. It carried a correction clarifying that SF State was 16 percent below its target enrollment, not that enrollment had dropped 16 percent.\n\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2023/09/san-francisco-state-university-facing-mass-staffing-cuts/\",\n \"published\": \"2023-09-29\",\n \"quotes\": [{\"text\": \"The cuts will affect an unknown number of the 1,084 lecturers across the university.\", \"source_url\": \"https://marcomm.sfsu.edu/sf-state-facts\"}, {\"text\": \"But lecturers, who make up some 60 percent of the university’s faculty, are facing the largest cuts by far, representing about a 30 percent decrease for most colleges within San Francisco State, according to the budget presentation.\", \"source_url\": \"https://marcomm.sfsu.edu/sf-state-facts\"}, {\"text\": \"But an August presentation by the school’s budget committee said cuts could be equivalent to 125 full-time positions.\", \"source_url\": \"https://adminfin.sfsu.edu/sites/default/files/documents/UBC%20Presentation%20August%202023%20complete%20slideshow%20v2.1.pdf\"}],\n \"correction\": \"Correction: A previous version of this story noted that San Francisco State had suffered a 16 percent drop in enrollment. The school is actually 16 percent below its target enrollment.\"}\n",
+ "usage": {
+  "input_tokens": 23645,
+  "output_tokens": 733,
+  "cache_read_tokens": 13696,
+  "reasoning_tokens": 0,
+  "total_tokens": 24378,
+  "api_calls": 6,
+  "session_id": "local-21a34442429059fcc13605410b25d71b30dd925bef08c87a0990a98b217c725d"
+ }
+}

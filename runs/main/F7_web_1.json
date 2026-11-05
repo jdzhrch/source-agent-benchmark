@@ -1,0 +1,22 @@
+{
+ "case": "F7",
+ "set": "main",
+ "arm": "web",
+ "rep": 1,
+ "model": "gpt-6-luna",
+ "reasoning": "low",
+ "started": "2026-11-04T23:50:35+00:00",
+ "seconds": 15.3,
+ "exit": 0,
+ "stderr_tail": "",
+ "answer": "Mission Local reported on a proposal for residential parking permits in streets near Dolores Park—not on converting the park itself into a paid parking lot. Its 2011 post said a City Hall hearing would consider two-hour permit-parking restrictions on nearby sections of 20th and Dolores streets. I found no Mission Local report describing the city turning Dolores Park into a paid parking lot.\n\n```json\n{\"found\": true,\n \"story_url\": \"https://missionlocal.org/2011/04/hearing-on-paid-parking-permits-for-dolores-park-area\",\n \"published\": \"2011-04-29\",\n \"quotes\": [{\"text\": \"A concerned reader sent us this notice for a hearing at City Hall on May 6 at 10 a.m. in Room 416 on — among other parking issues — adding residential parking permits to the area around Dolores Park.\", \"source_url\": null}],\n \"correction\": null}\n```\n",
+ "usage": {
+  "input_tokens": 15938,
+  "output_tokens": 354,
+  "cache_read_tokens": 12160,
+  "reasoning_tokens": 0,
+  "total_tokens": 16292,
+  "api_calls": 4,
+  "session_id": "local-3fdfc13f5976c9ae6b3024a2efb095fa8498bfcb9250554f26b5597bfd715388"
+ }
+}
