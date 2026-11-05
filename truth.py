@@ -13,6 +13,7 @@ import re
 
 API = "https://missionlocal.org/wp-json/wp/v2/posts"
 CACHE = Path(__file__).parent / "cache"
+CACHE.mkdir(exist_ok=True)
 UA = {"User-Agent": "Mozilla/5.0 (MAS.665 HW7 benchmark)"}
 
 

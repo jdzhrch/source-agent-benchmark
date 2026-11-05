@@ -45,10 +45,20 @@ python -I summarize.py scores-main.json
 
 `score.py` and `summarize.py` take the other labels the same way.
 
-## What you need to repeat it
+## Setup to repeat it
 
-- Hermes Agent with access to gpt-6-luna.
-- For the outlet arms, a subscriber link to Mission Local's agent. Its public agent card is at `https://source-agent-905861176071.us-west1.run.app/.well-known/agent-card.json`. Subscriber credentials are not in this repository; the author can issue a test credential.
-- Network access to missionlocal.org for scoring.
+1. Use Python 3.11 or later. The scripts need no extra packages. Scoring reads missionlocal.org, so it needs network access. `truth.py` caches each story in `cache/`.
+2. Install Hermes Agent v0.22.7 and sign in to a provider that serves gpt-6-luna.
+3. Create three Hermes profiles: `bench-outlet`, `bench-web` and `bench-a2a`. Give each one the matching file in `callers/` as its `SOUL.md`. Leave memory empty.
+4. For `bench-outlet` and `bench-a2a`, add an A2A agent named `missionlocal` that points at `https://source-agent-905861176071.us-west1.run.app` with a subscriber credential.
+5. Put the package verifier `source-verify` on the path that `callers/*.md` names.
 
-Web search results change over time, so a rerun of the `web` arm will not match these runs exactly.
+Mission Local's agent, its subscriber credentials and the package verifier are part of the project and are not in this repository. The author can issue a test credential and share the verifier.
+
+Two things will not match exactly on a rerun. Web search results change over time. `sample_cases.py` now counts paragraphs, while the original draw counted sentences with an earlier parser that was not kept, so `sampled.json` is the record of the stories actually drawn.
+
+## Service versions
+
+- Main test and first stress test: Mission Local's agent before the search change.
+- `after_change`: the agent after the search change (committed and deployed at 18:55 EST on 2026-11-04). Each search also takes the best older matches and alternates them with recent ones.
+- `clarify`: the same agent as `after_change`, with clarifying questions on or off.

@@ -24,8 +24,10 @@ def is_document(url: str) -> bool:
 
 def summary(post: dict) -> dict:
     f = truth.facts(post)
-    doc_sentences = sum(1 for s in f["sentences"] if any(is_document(u) for u in s["links"]))
-    words = sum(len(s["text"].split()) for s in f["sentences"])
+    # The draw in sampled.json counted sentences with an earlier parser that was not kept.
+    # This version counts paragraphs, so a rerun may draw different stories; sampled.json is the record.
+    doc_sentences = sum(1 for p in f["paragraphs"] if any(is_document(l["url"]) for l in p["links"]))
+    words = sum(len(p["text"].split()) for p in f["paragraphs"])
     return {"post_id": f["post_id"], "url": f["url"], "published": f["published"], "title": f["title"],
             "correction": f["correction"], "document_sentences": doc_sentences, "words": words}
 
