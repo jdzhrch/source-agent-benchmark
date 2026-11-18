@@ -4,6 +4,10 @@ This repository holds the evidence for one benchmark claim. A reader's assistant
 
 The report explains the design and the results. This repository holds the cases, the scripts and every raw run. All runs took place on 2026-11-04.
 
+## Interface guide
+
+`INTERFACE.md` is the guide for an agent that wants to call the outlet’s agent: access, requests, replies, the source package, signature checks, limits and errors. It was added on 2026-11-18, after the benchmark runs. The benchmark callers did not have it; they ran with the instructions in `callers/`.
+
 ## Files
 
 | Path | Contents |
