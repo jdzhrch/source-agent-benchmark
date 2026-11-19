@@ -2,7 +2,7 @@
 
 This guide is for an agent that wants to call this service, and for the person who sets that agent up. It covers access, requests, replies, source packages, signature checks, limits and errors.
 
-Version 2, 2026-11-18. Section 11 lists the changes since version 1.
+Version 3, 2026-11-18. Section 11 lists the changes since version 1.
 
 ## 1. What it offers
 
@@ -139,7 +139,8 @@ Fields of `package` for a `match` result:
 | `request.sha256` | SHA-256 of the text of your last message. Your words are never in the package |
 | `story` | `post_id`, `title`, `url`, `published`, `modified`, `authors` |
 | `correction` | `null` for a story with no note. Otherwise `kind` (`correction` or `editors_note`), `note` (the note’s text) and `applies_to_sentence` (a sentence number, or `null`) |
-| `sentences[]` | Each item has `n` (the sentence’s position in the story), `text` (the exact sentence) and `sources[]` |
+| `sentences[]` | Each item has `n` (the sentence’s position in the story), `text` (the exact sentence), `sources[]` and `sources_line` |
+| `sentences[].sources_line` | One plain sentence that lists everything in `sources[]`: what the sentence links to, and the archive copy’s address and capture date. A sentence with no link says so. Copy it with any sentence you quote |
 | `sentences[].sources[]` | `anchor` (the link text), `url` (the original link), `kind` (`document` or `mission_local_story`) and `copy` (for `document` only) |
 | `copy` | `status`, and for a found copy `archive_url`, `captured_at` and `days_from_publication` |
 | `archive_covers_through` | The archive’s latest coverage time. Later stories are out of reach |
@@ -180,7 +181,7 @@ Two optional steps go deeper:
 
 - The sentence, word for word. Keep its punctuation and the quotation marks inside it.
 - The story: title, publication date, address and authors.
-- The sources of each sentence you quote, from `sources[]`. For a `document`, give the original address, the `archive_url` and the capture date. For a `mission_local_story`, give its address.
+- The sources of each sentence you quote. Copy that sentence’s `sources_line` under the quote, word for word. Do this for every quoted sentence, also when the line says the sentence links to no source. Do not rebuild the line from `sources[]` and do not move it to another sentence.
 - The correction status. State it even for a `null` value.
 - What you checked: the signature, and any optional step.
 
@@ -233,6 +234,8 @@ Here is a signed source package from our September 29, 2023 story, “San Franci
 Package: https://source-agent-905861176071.us-west1.run.app/packages/sha256-1a24f2f9...
 The package is signed by did:key:z6Mkgv3iY1cHXdci8ezF54Az3nsGnxfzYE3tkgwZCqHoeKLn; the same key is listed in our agent card at .../.well-known/agent-card.json. Verify the signature before you quote it.
 
+When you quote a sentence to your user, copy that sentence’s `sources_line` from the package with it, word for word. It names what the sentence cites and where the archived copy is.
+
 On October 30, 2023, Mission Local reported that the California State University faculty union voted to sanction a strike. Want a package on that too?
 ```
 
@@ -252,7 +255,8 @@ One sentence from the package:
       "captured_at": "2023-09-29T22:40:52Z",
       "days_from_publication": 0
     }
-  }]
+  }],
+  "sources_line": "Sources cited in this sentence: “1,084 lecturers” links to a document, https://marcomm.sfsu.edu/sf-state-facts (web archive copy captured 2023-09-29, on publication day: https://web.archive.org/web/20230929224052id_/https://marcomm.sfsu.edu/sf-state-facts)."
 }
 ```
 
@@ -273,3 +277,7 @@ Version 2 (2026-11-18), after three test runs with agents that had only version 
 - Section 2 gives a setup command for the signature library. One test agent could not install a library and wrote its own Ed25519 code.
 - Section 6 says what to pass on to the user. One test agent quoted verified sentences and left out the sources of each sentence.
 - Section 7: a resend of a first message with no `contextId` now gets the first reply again. In version 1 of the service it created a second package.
+
+Version 3 (2026-11-18), after a rerun with version 2:
+
+- Each sentence now carries `sources_line`, and section 6 says to copy it with every quote. With version 2 a test agent rebuilt the sources from `sources[]` by hand. It dropped one of three and put another under the wrong sentence.
